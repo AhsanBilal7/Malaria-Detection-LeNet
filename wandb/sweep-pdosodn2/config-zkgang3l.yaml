@@ -1,0 +1,12 @@
+wandb_version: 1
+
+DROPOUT_RATE:
+  value: 0.2142628162974012
+LEARNING_RATE:
+  value: 0.0015361701249010028
+N_DENSE_1:
+  value: 64
+N_DENSE_2:
+  value: 32
+REGULARIZATION_RATE:
+  value: 0.01

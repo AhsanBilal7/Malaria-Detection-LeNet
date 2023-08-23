@@ -1,0 +1,175 @@
+
+This is just the test
+Model: "sequential_12"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_22 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_44 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_22 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_21 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_23 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_45 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_23 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_11 (Flatten)        (None, 14400)             0
+ dense_33 (Dense)            (None, 100)               1440100
+ batch_normalization_46 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_22 (Dropout)        (None, 100)               0
+ dense_34 (Dense)            (None, 10)                1010
+ batch_normalization_47 (Bat  (None, 10)               40
+ chNormalization)
+ dense_35 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.3192 - tn: 9369.0000 - fn: 1150.0000 - tp: 9835.0000 - fp: 1693.0000 - accuracy: 0.8710 - recall: 0.8953 - precision: 0.8531 - auc: 0.9359Found 27558 files belonging to 2 classes.
+Using 22047 files for training.
+Found 27558 files belonging to 2 classes.
+Using 5511 files for validation.
+Epoch 1/4
+(128, 3)
+(128, 3)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+(500, 500, 3)
+(300, 198, 3)
+(300, 198, 3)
+(500, 500, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.2047 - tn: 10173.0000 - fn: 712.0000 - tp: 10273.0000 - fp: 889.0000 - accuracy: 0.9274 - recall: 0.9352 - precision: 0.9204 - auc: 0.9713Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.1684 - tn: 10353.0000 - fn: 526.0000 - tp: 10459.0000 - fp: 709.0000 - accuracy: 0.9440 - recall: 0.9521 - precision: 0.9365 - auc: 0.9793

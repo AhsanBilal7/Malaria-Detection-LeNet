@@ -1,0 +1,165 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 126, 126, 6)       168
+ batch_normalization (BatchN  (None, 126, 126, 6)      24
+ ormalization)
+ max_pooling2d (MaxPooling2D  (None, 63, 63, 6)        0
+ )
+ dropout (Dropout)           (None, 63, 63, 6)         0
+ conv2d_1 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_1 (Batc  (None, 61, 61, 16)       64
+ hNormalization)
+ max_pooling2d_1 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten (Flatten)           (None, 14400)             0
+ dense (Dense)               (None, 32)                460832
+ batch_normalization_2 (Batc  (None, 32)               128
+ hNormalization)
+ dropout_1 (Dropout)         (None, 32)                0
+ dense_1 (Dense)             (None, 64)                2112
+ batch_normalization_3 (Batc  (None, 64)               256
+ hNormalization)
+ dense_2 (Dense)             (None, 1)                 65
+=================================================================
+Total params: 464,529
+Trainable params: 464,293
+Non-trainable params: 236
+_________________________________________________________________
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 1.2127 - accuracy: 0.7700
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\files\model-best\assets
+
+689/689 [==============================] - ETA: 0s - loss: 1.2127 - accuracy: 0.7700INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\files\model-best\assets
+689/689 [==============================] - 100s 121ms/step - loss: 1.2127 - accuracy: 0.7700 - val_loss: 1.6151 - val_accuracy: 0.5027
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.8702 - accuracy: 0.9057
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+
+689/689 [==============================] - ETA: 0s - loss: 0.8702 - accuracy: 0.9057INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\files\model-best)... Done. 0.1s
+689/689 [==============================] - 58s 82ms/step - loss: 0.8702 - accuracy: 0.9057 - val_loss: 0.7354 - val_accuracy: 0.9390
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 51s 73ms/step - loss: 0.7485 - accuracy: 0.9225 - val_loss: 1.0431 - val_accuracy: 0.6105
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 44s 64ms/step - loss: 0.8066 - accuracy: 0.9286 - val_loss: 0.8404 - val_accuracy: 0.9488
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.6660 - accuracy: 0.9336
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\files\model-best\assets
+
+689/689 [==============================] - ETA: 0s - loss: 0.6660 - accuracy: 0.9336INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\files\model-best\assets
+689/689 [==============================] - 51s 74ms/step - loss: 0.6660 - accuracy: 0.9336 - val_loss: 0.6989 - val_accuracy: 0.9339

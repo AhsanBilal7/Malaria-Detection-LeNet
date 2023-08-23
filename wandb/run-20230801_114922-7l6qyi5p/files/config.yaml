@@ -1,0 +1,51 @@
+wandb_version: 1
+
+DROPOUT_RATE:
+  desc: null
+  value: 0.16565719088963904
+LEARNING_RATE:
+  desc: null
+  value: 0.007128290357025426
+N_DENSE_1:
+  desc: null
+  value: 64
+N_DENSE_2:
+  desc: null
+  value: 32
+REGULARIZATION_RATE:
+  desc: null
+  value: 0.0001
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.16
+    cli_version: 0.15.7
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1690872562.202926
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      - 80
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      - 80
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.9.16
+      5: 0.15.7
+      8:
+      - 1
+      - 3
+      - 5

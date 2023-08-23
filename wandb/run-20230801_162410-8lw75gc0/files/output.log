@@ -1,0 +1,201 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 126, 126, 6)       168
+ batch_normalization (BatchN  (None, 126, 126, 6)      24
+ ormalization)
+ max_pooling2d (MaxPooling2D  (None, 63, 63, 6)        0
+ )
+ dropout (Dropout)           (None, 63, 63, 6)         0
+ conv2d_1 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_1 (Batc  (None, 61, 61, 16)       64
+ hNormalization)
+ max_pooling2d_1 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten (Flatten)           (None, 14400)             0
+ dense (Dense)               (None, 32)                460832
+ batch_normalization_2 (Batc  (None, 32)               128
+ hNormalization)
+ dropout_1 (Dropout)         (None, 32)                0
+ dense_1 (Dense)             (None, 32)                1056
+ batch_normalization_3 (Batc  (None, 32)               128
+ hNormalization)
+ dense_2 (Dense)             (None, 1)                 33
+=================================================================
+Total params: 463,313
+Trainable params: 463,141
+Non-trainable params: 172
+_________________________________________________________________
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.6736 - accuracy: 0.6698INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best)... Done. 0.1s
+689/689 [==============================] - 103s 147ms/step - loss: 0.6736 - accuracy: 0.6698 - val_loss: 2.1459 - val_accuracy: 0.6149
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.3549 - accuracy: 0.9067
+
+689/689 [==============================] - ETA: 0s - loss: 0.3549 - accuracy: 0.9067INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best\assets
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best)... Done. 0.1s
+689/689 [==============================] - 70s 100ms/step - loss: 0.3549 - accuracy: 0.9067 - val_loss: 0.4802 - val_accuracy: 0.8809
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 63s 90ms/step - loss: 0.2888 - accuracy: 0.9301 - val_loss: 0.7792 - val_accuracy: 0.4882
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.2790 - accuracy: 0.9341
+
+689/689 [==============================] - ETA: 0s - loss: 0.2790 - accuracy: 0.9341INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best\assets
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_162410-8lw75gc0\files\model-best)... Done. 0.2s
+689/689 [==============================] - 109s 157ms/step - loss: 0.2790 - accuracy: 0.9341 - val_loss: 0.2875 - val_accuracy: 0.9328
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 106s 150ms/step - loss: 0.2602 - accuracy: 0.9392 - val_loss: 0.3611 - val_accuracy: 0.9383

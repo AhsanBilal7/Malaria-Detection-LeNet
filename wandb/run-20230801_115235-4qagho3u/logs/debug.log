@@ -1,0 +1,40 @@
+2023-08-01 11:52:35,449 INFO    Thread-43 :18936 [wandb_setup.py:_flush():76] Current SDK version is 0.15.7
+2023-08-01 11:52:35,449 INFO    Thread-43 :18936 [wandb_setup.py:_flush():76] Configure stats pid to 18936
+2023-08-01 11:52:35,449 INFO    Thread-43 :18936 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Pc\.config\wandb\settings
+2023-08-01 11:52:35,449 INFO    Thread-43 :18936 [wandb_setup.py:_flush():76] Loading settings from d:\Tensorflow Basics\Car Price Prediction\wandb\settings
+2023-08-01 11:52:35,449 INFO    Thread-43 :18936 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'ahsanbilal', 'root_dir': 'd:\\Tensorflow Basics\\Car Price Prediction', 'sweep_id': 'wkxsmxf6', 'run_id': '4qagho3u', 'sweep_param_path': 'd:\\Tensorflow Basics\\Car Price Prediction\\wandb\\sweep-wkxsmxf6\\config-4qagho3u.yaml'}
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_init.py:_log_setup():507] Logging user logs to d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\logs\debug.log
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_init.py:_log_setup():508] Logging internal logs to d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115235-4qagho3u\logs\debug-internal.log
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000018D47611460>
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_init.py:init():547] calling init triggers
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_init.py:init():554] wandb.init called with sweep_config: {'DROPOUT_RATE': 0.2147087234839637, 'LEARNING_RATE': 0.004955219137198704, 'N_DENSE_1': 32, 'N_DENSE_2': 64, 'REGULARIZATION_RATE': 0.01}
+config: {}
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_init.py:init():596] starting backend
+2023-08-01 11:52:35,450 INFO    Thread-43 :18936 [wandb_init.py:init():600] setting up manager
+2023-08-01 11:52:35,459 INFO    Thread-43 :18936 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-08-01 11:52:35,464 INFO    Thread-43 :18936 [wandb_init.py:init():606] backend started and connected
+2023-08-01 11:52:35,477 INFO    Thread-43 :18936 [wandb_run.py:_config_callback():1282] config_cb None None {'DROPOUT_RATE': 0.2147087234839637, 'LEARNING_RATE': 0.004955219137198704, 'N_DENSE_1': 32, 'N_DENSE_2': 64, 'REGULARIZATION_RATE': 0.01}
+2023-08-01 11:52:35,480 INFO    Thread-43 :18936 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-08-01 11:52:35,481 INFO    Thread-43 :18936 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-01 11:52:35,481 INFO    Thread-43 :18936 [wandb_init.py:init():697] updated telemetry
+2023-08-01 11:52:35,483 INFO    Thread-43 :18936 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-01 11:52:36,864 INFO    Thread-43 :18936 [wandb_run.py:_on_init():2174] communicating current version
+2023-08-01 11:52:37,634 INFO    Thread-43 :18936 [wandb_run.py:_on_init():2183] got version response 
+2023-08-01 11:52:37,635 INFO    Thread-43 :18936 [wandb_init.py:init():781] starting run threads in backend
+2023-08-01 11:52:44,087 INFO    Thread-43 :18936 [wandb_run.py:_console_start():2153] atexit reg
+2023-08-01 11:52:44,089 INFO    Thread-43 :18936 [wandb_run.py:_redirect():2008] redirect: wrap_raw
+2023-08-01 11:52:44,089 INFO    Thread-43 :18936 [wandb_run.py:_redirect():2073] Wrapping output streams.
+2023-08-01 11:52:44,089 INFO    Thread-43 :18936 [wandb_run.py:_redirect():2098] Redirects installed.
+2023-08-01 11:52:44,091 INFO    Thread-43 :18936 [wandb_init.py:init():822] run started, returning control to user process
+2023-08-01 11:57:48,328 INFO    Thread-43 :18936 [wandb_run.py:_finish():1888] finishing run ahsanbilal/uncategorized/4qagho3u
+2023-08-01 11:57:48,571 INFO    Thread-43 :18936 [jupyter.py:save_history():445] not saving jupyter history
+2023-08-01 11:57:48,571 INFO    Thread-43 :18936 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-08-01 11:57:48,571 INFO    Thread-43 :18936 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-08-01 11:57:48,571 INFO    Thread-43 :18936 [wandb_run.py:_atexit_cleanup():2122] got exitcode: 0
+2023-08-01 11:57:48,571 INFO    Thread-43 :18936 [wandb_run.py:_restore():2105] restore
+2023-08-01 11:57:48,571 INFO    Thread-43 :18936 [wandb_run.py:_restore():2111] restore done
+2023-08-01 11:58:26,922 INFO    Thread-43 :18936 [wandb_run.py:_footer_history_summary_info():3475] rendering history
+2023-08-01 11:58:26,924 INFO    Thread-43 :18936 [wandb_run.py:_footer_history_summary_info():3507] rendering summary
+2023-08-01 11:58:26,928 INFO    Thread-43 :18936 [wandb_run.py:_footer_sync_info():3434] logging synced files

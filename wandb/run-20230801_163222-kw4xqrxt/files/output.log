@@ -1,0 +1,226 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 126, 126, 6)       168
+ batch_normalization (BatchN  (None, 126, 126, 6)      24
+ ormalization)
+ max_pooling2d (MaxPooling2D  (None, 63, 63, 6)        0
+ )
+ dropout (Dropout)           (None, 63, 63, 6)         0
+ conv2d_1 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_1 (Batc  (None, 61, 61, 16)       64
+ hNormalization)
+ max_pooling2d_1 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten (Flatten)           (None, 14400)             0
+ dense (Dense)               (None, 16)                230416
+ batch_normalization_2 (Batc  (None, 16)               64
+ hNormalization)
+ dropout_1 (Dropout)         (None, 16)                0
+ dense_1 (Dense)             (None, 16)                272
+ batch_normalization_3 (Batc  (None, 16)               64
+ hNormalization)
+ dense_2 (Dense)             (None, 1)                 17
+=================================================================
+Total params: 231,969
+Trainable params: 231,861
+Non-trainable params: 108
+_________________________________________________________________
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.6106 - accuracy: 0.6807
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+
+689/689 [==============================] - ETA: 0s - loss: 0.6106 - accuracy: 0.6807INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best)... Done. 0.1s
+689/689 [==============================] - 106s 148ms/step - loss: 0.6106 - accuracy: 0.6807 - val_loss: 1.0942 - val_accuracy: 0.5568
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.2905 - accuracy: 0.9086
+
+689/689 [==============================] - ETA: 0s - loss: 0.2905 - accuracy: 0.9086INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best\assets
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best)... Done. 0.1s
+689/689 [==============================] - 91s 132ms/step - loss: 0.2905 - accuracy: 0.9086 - val_loss: 0.2089 - val_accuracy: 0.9365
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 87s 126ms/step - loss: 0.2449 - accuracy: 0.9289 - val_loss: 0.2182 - val_accuracy: 0.9339
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.2339 - accuracy: 0.9355
+
+689/689 [==============================] - ETA: 0s - loss: 0.2339 - accuracy: 0.9355INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best\assets
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best)... Done. 0.1s
+689/689 [==============================] - 81s 117ms/step - loss: 0.2339 - accuracy: 0.9355 - val_loss: 0.2069 - val_accuracy: 0.9383
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.2166 - accuracy: 0.9396
+
+689/689 [==============================] - ETA: 0s - loss: 0.2166 - accuracy: 0.9396INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best\assets
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_163222-kw4xqrxt\files\model-best)... Done. 0.1s
+689/689 [==============================] - 99s 138ms/step - loss: 0.2166 - accuracy: 0.9396 - val_loss: 0.1843 - val_accuracy: 0.9532

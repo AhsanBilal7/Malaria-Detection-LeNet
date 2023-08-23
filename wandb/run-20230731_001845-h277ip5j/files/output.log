@@ -1,0 +1,147 @@
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_2 (Conv2D)           (None, 126, 126, 6)       168
+ batch_normalization_4 (Batc  (None, 126, 126, 6)      24
+ hNormalization)
+ max_pooling2d_2 (MaxPooling  (None, 63, 63, 6)        0
+ 2D)
+ dropout_1 (Dropout)         (None, 63, 63, 6)         0
+ conv2d_3 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_5 (Batc  (None, 61, 61, 16)       64
+ hNormalization)
+ max_pooling2d_3 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten_1 (Flatten)         (None, 14400)             0
+ dense_3 (Dense)             (None, 100)               1440100
+ batch_normalization_6 (Batc  (None, 100)              400
+ hNormalization)
+ dropout_2 (Dropout)         (None, 100)               0
+ dense_4 (Dense)             (None, 10)                1010
+ batch_normalization_7 (Batc  (None, 10)               40
+ hNormalization)
+ dense_5 (Dense)             (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+[34m[1mwandb[39m[22m: [33mWARNING[39m The data_type argument of wandb.keras.WandbCallback is deprecated and will be removed in a future release. Please use input_type instead.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Setting input_type = data_type.
+
+
+
+
+ 56/689 [=>............................] - ETA: 1:18 - loss: 0.7075 - tn: 514.0000 - fn: 337.0000 - tp: 529.0000 - fp: 412.0000 - accuracy: 0.5820 - recall: 0.6109 - precision: 0.5622 - auc: 0.6105Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_4 (Conv2D)           (None, 126, 126, 6)       168
+ batch_normalization_8 (Batc  (None, 126, 126, 6)      24
+ hNormalization)
+ max_pooling2d_4 (MaxPooling  (None, 63, 63, 6)        0
+ 2D)
+ dropout_3 (Dropout)         (None, 63, 63, 6)         0
+ conv2d_5 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_9 (Batc  (None, 61, 61, 16)       64
+ hNormalization)
+ max_pooling2d_5 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten_2 (Flatten)         (None, 14400)             0
+ dense_6 (Dense)             (None, 100)               1440100
+ batch_normalization_10 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_4 (Dropout)         (None, 100)               0
+ dense_7 (Dense)             (None, 10)                1010
+ batch_normalization_11 (Bat  (None, 10)               40
+ chNormalization)
+ dense_8 (Dense)             (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 5s 36ms/steploss: 0.3101 - tn: 10046.0000 - fn: 1591.0000 - tp: 10272.0000 - fp: 1962.0000 - accuracy: 0.8512 - recall: 0.8659 - precision: 0.8396 - auc: 0.9287
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+689/689 [==============================] - 108s 151ms/step - loss: 0.3101 - tn: 10046.0000 - fn: 1591.0000 - tp: 10272.0000 - fp: 1962.0000 - accuracy: 0.8512 - recall: 0.8659 - precision: 0.8396 - auc: 0.9287
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_6 (Conv2D)           (None, 126, 126, 6)       168
+ batch_normalization_12 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_6 (MaxPooling  (None, 63, 63, 6)        0
+ 2D)
+ dropout_5 (Dropout)         (None, 63, 63, 6)         0
+ conv2d_7 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_13 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_7 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten_3 (Flatten)         (None, 14400)             0
+ dense_9 (Dense)             (None, 100)               1440100
+ batch_normalization_14 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_6 (Dropout)         (None, 100)               0
+ dense_10 (Dense)            (None, 10)                1010
+ batch_normalization_15 (Bat  (None, 10)               40
+ chNormalization)
+ dense_11 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________

@@ -1,0 +1,183 @@
+2023-08-01 11:32:27,081 INFO    StreamThr :5016 [internal.py:wandb_internal():86] W&B internal server running at pid: 5016, started at: 2023-08-01 11:32:27.080137
+2023-08-01 11:32:27,083 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: status
+2023-08-01 11:32:27,099 INFO    WriterThread:5016 [datastore.py:open_for_write():85] open: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\run-sy7u0orv.wandb
+2023-08-01 11:32:27,102 DEBUG   SenderThread:5016 [sender.py:send():379] send: header
+2023-08-01 11:32:27,103 DEBUG   SenderThread:5016 [sender.py:send():379] send: run
+2023-08-01 11:32:28,101 INFO    SenderThread:5016 [dir_watcher.py:__init__():211] watching files in: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files
+2023-08-01 11:32:28,103 INFO    SenderThread:5016 [sender.py:_start_run_threads():1122] run started: sy7u0orv with start time 1690871547.080136
+2023-08-01 11:32:28,103 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: summary_record
+2023-08-01 11:32:28,104 INFO    SenderThread:5016 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-01 11:32:28,110 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: check_version
+2023-08-01 11:32:28,111 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: check_version
+2023-08-01 11:32:28,930 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: run_start
+2023-08-01 11:32:28,997 DEBUG   HandlerThread:5016 [system_info.py:__init__():31] System info init
+2023-08-01 11:32:28,998 DEBUG   HandlerThread:5016 [system_info.py:__init__():46] System info init done
+2023-08-01 11:32:28,998 INFO    HandlerThread:5016 [system_monitor.py:start():181] Starting system monitor
+2023-08-01 11:32:28,998 INFO    SystemMonitor:5016 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-01 11:32:28,998 INFO    HandlerThread:5016 [system_monitor.py:probe():201] Collecting system info
+2023-08-01 11:32:29,010 INFO    SystemMonitor:5016 [interfaces.py:start():190] Started cpu monitoring
+2023-08-01 11:32:29,011 INFO    SystemMonitor:5016 [interfaces.py:start():190] Started disk monitoring
+2023-08-01 11:32:29,012 INFO    SystemMonitor:5016 [interfaces.py:start():190] Started gpu monitoring
+2023-08-01 11:32:29,023 INFO    SystemMonitor:5016 [interfaces.py:start():190] Started memory monitoring
+2023-08-01 11:32:29,045 DEBUG   HandlerThread:5016 [system_info.py:probe():195] Probing system
+2023-08-01 11:32:29,046 INFO    SystemMonitor:5016 [interfaces.py:start():190] Started network monitoring
+2023-08-01 11:32:29,046 DEBUG   HandlerThread:5016 [gitlib.py:_init_repo():53] git repository is invalid
+2023-08-01 11:32:29,047 DEBUG   HandlerThread:5016 [system_info.py:probe():240] Probing system done
+2023-08-01 11:32:29,047 DEBUG   HandlerThread:5016 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.16', 'heartbeatAt': '2023-08-01T06:32:29.045439', 'startedAt': '2023-08-01T06:32:27.063471', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'host': 'ahsan', 'username': 'Pc', 'executable': 'c:\\Users\\Pc\\miniconda3\\envs\\tf\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2100.0, 'min': 0.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 0.0, 'max': 2100.0}], 'disk': {'total': 195.31151962280273, 'used': 185.70392608642578}, 'gpu': 'NVIDIA GeForce RTX 3050 6GB Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 6GB Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 7.64898681640625}}
+2023-08-01 11:32:29,047 INFO    HandlerThread:5016 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-01 11:32:29,047 INFO    HandlerThread:5016 [system_monitor.py:probe():214] Publishing system info
+2023-08-01 11:32:29,047 DEBUG   HandlerThread:5016 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-01 11:32:29,048 DEBUG   HandlerThread:5016 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-01 11:32:29,048 DEBUG   HandlerThread:5016 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-01 11:32:29,120 INFO    Thread-16 :5016 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\wandb-summary.json
+2023-08-01 11:32:29,121 INFO    Thread-16 :5016 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\requirements.txt
+2023-08-01 11:32:29,121 INFO    Thread-16 :5016 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\conda-environment.yaml
+2023-08-01 11:32:35,758 DEBUG   HandlerThread:5016 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-01 11:32:35,760 INFO    HandlerThread:5016 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-01 11:32:35,774 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: status_report
+2023-08-01 11:32:35,775 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-01 11:32:35,775 DEBUG   SenderThread:5016 [sender.py:send():379] send: files
+2023-08-01 11:32:35,775 INFO    SenderThread:5016 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2023-08-01 11:32:35,801 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-01 11:32:35,803 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: stop_status
+2023-08-01 11:32:36,192 INFO    Thread-16 :5016 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\conda-environment.yaml
+2023-08-01 11:32:36,192 INFO    Thread-16 :5016 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\wandb-metadata.json
+2023-08-01 11:32:36,545 DEBUG   SenderThread:5016 [sender.py:send():379] send: telemetry
+2023-08-01 11:32:36,545 DEBUG   SenderThread:5016 [sender.py:send():379] send: telemetry
+2023-08-01 11:32:36,546 DEBUG   SenderThread:5016 [sender.py:send():379] send: exit
+2023-08-01 11:32:36,546 INFO    SenderThread:5016 [sender.py:send_exit():584] handling exit code: 1
+2023-08-01 11:32:36,547 INFO    SenderThread:5016 [sender.py:send_exit():586] handling runtime: 7
+2023-08-01 11:32:36,552 INFO    SenderThread:5016 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-01 11:32:36,554 INFO    SenderThread:5016 [sender.py:send_exit():592] send defer
+2023-08-01 11:32:36,555 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:36,555 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-01 11:32:36,557 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:36,557 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-01 11:32:36,557 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 1
+2023-08-01 11:32:36,557 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:36,557 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-01 11:32:36,558 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:36,558 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-01 11:32:36,558 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 2
+2023-08-01 11:32:36,558 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:36,559 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-01 11:32:36,559 INFO    HandlerThread:5016 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-01 11:32:36,560 DEBUG   SystemMonitor:5016 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-01 11:32:36,578 DEBUG   SystemMonitor:5016 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-01 11:32:36,578 INFO    HandlerThread:5016 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-01 11:32:36,578 DEBUG   SystemMonitor:5016 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-01 11:32:36,579 INFO    HandlerThread:5016 [interfaces.py:finish():202] Joined disk monitor
+2023-08-01 11:32:36,689 INFO    HandlerThread:5016 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-01 11:32:36,690 INFO    HandlerThread:5016 [interfaces.py:finish():202] Joined memory monitor
+2023-08-01 11:32:36,690 INFO    HandlerThread:5016 [interfaces.py:finish():202] Joined network monitor
+2023-08-01 11:32:36,692 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:36,692 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-01 11:32:36,692 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 3
+2023-08-01 11:32:36,692 DEBUG   SenderThread:5016 [sender.py:send():379] send: stats
+2023-08-01 11:32:36,692 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:36,693 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-01 11:32:36,693 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:36,693 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-01 11:32:36,693 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 4
+2023-08-01 11:32:36,694 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:36,694 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-01 11:32:36,695 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:36,695 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-01 11:32:36,695 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 5
+2023-08-01 11:32:36,695 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:36,695 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-01 11:32:36,695 DEBUG   SenderThread:5016 [sender.py:send():379] send: summary
+2023-08-01 11:32:36,696 INFO    SenderThread:5016 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-01 11:32:36,696 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:36,696 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-01 11:32:36,696 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 6
+2023-08-01 11:32:36,696 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:36,697 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-01 11:32:36,697 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:36,697 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-01 11:32:36,701 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: status_report
+2023-08-01 11:32:37,032 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-01 11:32:37,203 INFO    Thread-16 :5016 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\wandb-summary.json
+2023-08-01 11:32:37,796 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 7
+2023-08-01 11:32:37,797 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: poll_exit
+2023-08-01 11:32:37,797 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:37,797 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-01 11:32:37,797 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:37,797 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-01 11:32:37,797 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 8
+2023-08-01 11:32:37,797 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:37,797 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-01 11:32:37,797 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:37,798 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-01 11:32:37,798 INFO    SenderThread:5016 [job_builder.py:build():280] Attempting to build job artifact
+2023-08-01 11:32:37,798 INFO    SenderThread:5016 [job_builder.py:build():296] run is notebook based run
+2023-08-01 11:32:37,798 INFO    SenderThread:5016 [job_builder.py:_get_source_type():400] no source found
+2023-08-01 11:32:37,798 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 9
+2023-08-01 11:32:37,798 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:37,798 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-01 11:32:37,798 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:37,798 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-01 11:32:37,798 INFO    SenderThread:5016 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-08-01 11:32:37,867 INFO    wandb-upload_0:5016 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmpm2hpwql1wandb\0lykyyml-wandb-metadata.json
+2023-08-01 11:32:38,043 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-01 11:32:38,212 INFO    SenderThread:5016 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\config.yaml
+2023-08-01 11:32:38,212 INFO    SenderThread:5016 [dir_watcher.py:finish():389] scan: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files
+2023-08-01 11:32:38,214 INFO    SenderThread:5016 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\conda-environment.yaml conda-environment.yaml
+2023-08-01 11:32:38,214 INFO    SenderThread:5016 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\config.yaml config.yaml
+2023-08-01 11:32:38,217 INFO    SenderThread:5016 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\requirements.txt requirements.txt
+2023-08-01 11:32:38,226 INFO    SenderThread:5016 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\wandb-metadata.json wandb-metadata.json
+2023-08-01 11:32:38,227 INFO    SenderThread:5016 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\wandb-summary.json wandb-summary.json
+2023-08-01 11:32:38,232 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 10
+2023-08-01 11:32:38,232 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: poll_exit
+2023-08-01 11:32:38,233 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:38,234 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-01 11:32:38,237 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:38,237 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-01 11:32:38,237 INFO    SenderThread:5016 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-01 11:32:39,053 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-01 11:32:39,053 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: poll_exit
+2023-08-01 11:32:39,242 INFO    wandb-upload_1:5016 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\config.yaml
+2023-08-01 11:32:40,063 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-01 11:32:40,064 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: poll_exit
+2023-08-01 11:32:40,282 INFO    wandb-upload_0:5016 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\conda-environment.yaml
+2023-08-01 11:32:40,579 INFO    wandb-upload_2:5016 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\requirements.txt
+2023-08-01 11:32:40,710 INFO    wandb-upload_3:5016 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\files\wandb-summary.json
+2023-08-01 11:32:40,918 INFO    Thread-15 :5016 [sender.py:transition_state():612] send defer: 11
+2023-08-01 11:32:40,918 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:40,919 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-01 11:32:40,919 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:40,919 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-01 11:32:40,919 INFO    SenderThread:5016 [file_pusher.py:join():164] waiting for file pusher
+2023-08-01 11:32:40,919 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 12
+2023-08-01 11:32:40,919 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:40,920 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-01 11:32:40,920 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:40,920 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-01 11:32:41,077 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-01 11:32:41,254 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 13
+2023-08-01 11:32:41,255 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: poll_exit
+2023-08-01 11:32:41,255 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:41,255 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-01 11:32:41,256 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:41,256 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-01 11:32:41,256 INFO    SenderThread:5016 [sender.py:transition_state():612] send defer: 14
+2023-08-01 11:32:41,256 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: defer
+2023-08-01 11:32:41,256 DEBUG   SenderThread:5016 [sender.py:send():379] send: final
+2023-08-01 11:32:41,256 INFO    HandlerThread:5016 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-01 11:32:41,256 DEBUG   SenderThread:5016 [sender.py:send():379] send: footer
+2023-08-01 11:32:41,257 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: defer
+2023-08-01 11:32:41,257 INFO    SenderThread:5016 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-01 11:32:41,258 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-01 11:32:41,259 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: server_info
+2023-08-01 11:32:41,259 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-01 11:32:41,259 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: poll_exit
+2023-08-01 11:32:41,259 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-01 11:32:41,260 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: server_info
+2023-08-01 11:32:41,260 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: job_info
+2023-08-01 11:32:41,832 DEBUG   SenderThread:5016 [sender.py:send_request():406] send_request: job_info
+2023-08-01 11:32:41,834 DEBUG   HandlerThread:5016 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-01 11:32:41,835 INFO    HandlerThread:5016 [handler.py:finish():857] shutting down handler
+2023-08-01 11:32:42,272 INFO    WriterThread:5016 [datastore.py:close():294] close: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_113227-sy7u0orv\run-sy7u0orv.wandb
+2023-08-01 11:32:42,836 INFO    SenderThread:5016 [sender.py:finish():1552] shutting down sender
+2023-08-01 11:32:42,837 INFO    SenderThread:5016 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-01 11:32:42,837 INFO    SenderThread:5016 [file_pusher.py:join():164] waiting for file pusher

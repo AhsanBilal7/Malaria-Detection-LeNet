@@ -1,0 +1,159 @@
+2023-07-30 19:06:21,433 INFO    MainThread:21972 [wandb_setup.py:_flush():76] Current SDK version is 0.15.7
+2023-07-30 19:06:21,436 INFO    MainThread:21972 [wandb_setup.py:_flush():76] Configure stats pid to 21972
+2023-07-30 19:06:21,436 INFO    MainThread:21972 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Pc\.config\wandb\settings
+2023-07-30 19:06:21,436 INFO    MainThread:21972 [wandb_setup.py:_flush():76] Loading settings from d:\Tensorflow Basics\Car Price Prediction\wandb\settings
+2023-07-30 19:06:21,436 INFO    MainThread:21972 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-30 19:06:21,436 INFO    MainThread:21972 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-30 19:06:21,436 INFO    MainThread:21972 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-30 19:06:21,439 INFO    MainThread:21972 [wandb_init.py:_log_setup():507] Logging user logs to d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230730_190621-s65t32yx\logs\debug.log
+2023-07-30 19:06:21,440 INFO    MainThread:21972 [wandb_init.py:_log_setup():508] Logging internal logs to d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230730_190621-s65t32yx\logs\debug-internal.log
+2023-07-30 19:06:21,441 INFO    MainThread:21972 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000018090B3A790>
+2023-07-30 19:06:21,447 INFO    MainThread:21972 [wandb_init.py:init():547] calling init triggers
+2023-07-30 19:06:21,447 INFO    MainThread:21972 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-30 19:06:21,447 INFO    MainThread:21972 [wandb_init.py:init():596] starting backend
+2023-07-30 19:06:21,447 INFO    MainThread:21972 [wandb_init.py:init():600] setting up manager
+2023-07-30 19:06:21,503 INFO    MainThread:21972 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-07-30 19:06:21,600 INFO    MainThread:21972 [wandb_init.py:init():606] backend started and connected
+2023-07-30 19:06:21,713 INFO    MainThread:21972 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-07-30 19:06:21,713 INFO    MainThread:21972 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-30 19:06:21,713 INFO    MainThread:21972 [wandb_init.py:init():697] updated telemetry
+2023-07-30 19:06:21,746 INFO    MainThread:21972 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-07-30 19:06:23,952 INFO    MainThread:21972 [wandb_run.py:_on_init():2174] communicating current version
+2023-07-30 19:06:25,016 INFO    MainThread:21972 [wandb_run.py:_on_init():2183] got version response 
+2023-07-30 19:06:25,016 INFO    MainThread:21972 [wandb_init.py:init():781] starting run threads in backend
+2023-07-30 19:06:38,600 INFO    MainThread:21972 [wandb_run.py:_console_start():2153] atexit reg
+2023-07-30 19:06:38,606 INFO    MainThread:21972 [wandb_run.py:_redirect():2008] redirect: wrap_raw
+2023-07-30 19:06:38,607 INFO    MainThread:21972 [wandb_run.py:_redirect():2073] Wrapping output streams.
+2023-07-30 19:06:38,607 INFO    MainThread:21972 [wandb_run.py:_redirect():2098] Redirects installed.
+2023-07-30 19:06:38,610 INFO    MainThread:21972 [wandb_init.py:init():822] run started, returning control to user process
+2023-07-30 19:06:38,620 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:06:38,620 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:07:05,594 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:07:05,609 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:07:05,619 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:07:07,556 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:07:07,837 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:07:07,837 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:07:30,265 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:07:30,273 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:07:30,273 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:07:33,364 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:07:33,372 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:07:33,372 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:07:35,687 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:07:36,940 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:07:36,940 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:07:36,961 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:09:33,522 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:09:33,522 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:10:21,401 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:10:21,459 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:10:21,459 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:10:23,160 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:10:23,790 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:10:23,790 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:10:24,202 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:12:10,751 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:12:10,758 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:14:08,545 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:14:08,593 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:14:08,593 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:14:09,524 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:14:10,490 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:14:10,490 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:14:11,065 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:15:58,505 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:15:58,513 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:17:55,601 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:17:55,679 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:17:55,680 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:17:56,591 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:17:58,251 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:17:58,255 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:17:58,291 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:19:40,388 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:19:40,397 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:20:25,041 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:20:25,077 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:20:25,077 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:20:25,158 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:20:25,950 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:20:25,950 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:20:25,994 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:21:48,950 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:21:48,950 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:34:52,353 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:34:52,369 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:34:52,369 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:34:53,053 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:34:54,092 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:34:54,092 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:34:54,400 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:36:16,744 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 19:37:57,717 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 19:39:41,132 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 19:41:10,370 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 19:41:11,376 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:41:11,376 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:44:49,014 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:44:52,980 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:44:52,980 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:51:19,395 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:51:19,430 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:51:19,430 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:51:20,164 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:51:20,188 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:51:20,192 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:51:21,201 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:51:21,209 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:51:21,209 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:51:21,852 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:51:21,860 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:51:21,860 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:51:23,873 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:51:24,990 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:51:24,990 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 19:51:29,788 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 19:53:05,101 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 19:53:05,106 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 23:23:06,156 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 23:23:06,220 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:23:06,220 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 23:23:06,684 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 23:23:08,059 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:23:08,059 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 23:23:10,358 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 23:25:29,786 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:25:32,434 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:25:32,434 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 23:29:47,160 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 23:29:47,192 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:29:47,192 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 23:29:47,882 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 23:29:48,630 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:29:48,630 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 23:29:48,647 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 23:31:59,320 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:33:39,123 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:35:24,790 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:36:52,642 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:39:22,384 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:40:54,882 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:42:32,526 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:44:07,294 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:45:44,045 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:47:15,232 INFO    MainThread:21972 [wandb_run.py:_config_callback():1282] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2023-07-30 23:47:16,536 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:47:16,537 INFO    MainThread:21972 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-30 23:47:58,981 INFO    MainThread:21972 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-30 23:47:58,999 INFO    MainThread:21972 [wandb_run.py:_finish():1888] finishing run ahsanbilal/Malaria Detection/s65t32yx
+2023-07-30 23:47:59,017 INFO    MainThread:21972 [jupyter.py:save_history():445] not saving jupyter history
+2023-07-30 23:47:59,017 INFO    MainThread:21972 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:47:59,018 INFO    MainThread:21972 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-30 23:47:59,020 INFO    MainThread:21972 [wandb_run.py:_atexit_cleanup():2122] got exitcode: 0
+2023-07-30 23:47:59,025 INFO    MainThread:21972 [wandb_run.py:_restore():2105] restore
+2023-07-30 23:47:59,028 INFO    MainThread:21972 [wandb_run.py:_restore():2111] restore done
+2023-07-30 23:48:06,705 INFO    MainThread:21972 [wandb_run.py:_footer_history_summary_info():3475] rendering history
+2023-07-30 23:48:06,710 INFO    MainThread:21972 [wandb_run.py:_footer_history_summary_info():3507] rendering summary
+2023-07-30 23:48:06,746 INFO    MainThread:21972 [wandb_run.py:_footer_sync_info():3434] logging synced files

@@ -1,0 +1,157 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 126, 126, 6)       168
+ batch_normalization (BatchN  (None, 126, 126, 6)      24
+ ormalization)
+ max_pooling2d (MaxPooling2D  (None, 63, 63, 6)        0
+ )
+ dropout (Dropout)           (None, 63, 63, 6)         0
+ conv2d_1 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_1 (Batc  (None, 61, 61, 16)       64
+ hNormalization)
+ max_pooling2d_1 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten (Flatten)           (None, 14400)             0
+ dense (Dense)               (None, 16)                230416
+ batch_normalization_2 (Batc  (None, 16)               64
+ hNormalization)
+ dropout_1 (Dropout)         (None, 16)                0
+ dense_1 (Dense)             (None, 32)                544
+ batch_normalization_3 (Batc  (None, 32)               128
+ hNormalization)
+ dense_2 (Dense)             (None, 1)                 33
+=================================================================
+Total params: 232,321
+Trainable params: 232,181
+Non-trainable params: 140
+_________________________________________________________________
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.6670 - accuracy: 0.6178 INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115835-7aidbsa3\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115835-7aidbsa3\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_115835-7aidbsa3\files\model-best)... Done. 0.1s
+689/689 [==============================] - 14194s 21s/step - loss: 0.6670 - accuracy: 0.6178 - val_loss: 0.7932 - val_accuracy: 0.6149
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 63s 88ms/step - loss: 0.6179 - accuracy: 0.6736 - val_loss: 1.3702 - val_accuracy: 0.5437
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 62s 90ms/step - loss: 0.5842 - accuracy: 0.7064 - val_loss: 2.8260 - val_accuracy: 0.6414
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 47s 67ms/step - loss: 0.4807 - accuracy: 0.7894 - val_loss: 11.5071 - val_accuracy: 0.5470
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 43s 61ms/step - loss: 0.3362 - accuracy: 0.8785 - val_loss: 0.8074 - val_accuracy: 0.8639

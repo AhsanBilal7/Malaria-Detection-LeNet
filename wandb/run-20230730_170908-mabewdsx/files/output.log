@@ -1,0 +1,31 @@
+Found 27558 files belonging to 2 classes.
+Using 22047 files for training.
+Found 27558 files belonging to 2 classes.
+Using 5511 files for validation.
+(128, 3)
+(128, 3)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+(500, 500, 3)
+(300, 198, 3)
+(300, 198, 3)
+(500, 500, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+(300, 250, 3)
+Train samples: 689
+Validation samples: 87
+Test samples: 87
+Shape of Image in Train  dataset (32, 128, 128, 3)
+Shape of Image in Validation  dataset (32, 128, 128, 3)
+Shape of Image in Test  dataset (32, 128, 128, 3)
+I was here, This only print once
+Multiple Prints
+Multiple Prints
+Multiple Prints
+[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]

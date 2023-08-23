@@ -1,0 +1,1271 @@
+Model: "sequential_13"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_26 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_52 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_26 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_24 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_27 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_53 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_27 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_13 (Flatten)        (None, 14400)             0
+ dense_39 (Dense)            (None, 100)               1440100
+ batch_normalization_54 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_25 (Dropout)        (None, 100)               0
+ dense_40 (Dense)            (None, 10)                1010
+ batch_normalization_55 (Bat  (None, 10)               40
+ chNormalization)
+ dense_41 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.3630 - tn: 9218.0000 - fn: 1716.0000 - tp: 9269.0000 - fp: 1844.0000 - accuracy: 0.8385 - recall: 0.8438 - precision: 0.8341 - auc: 0.9186Model: "sequential_14"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_28 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_56 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_28 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_26 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_29 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_57 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_29 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_14 (Flatten)        (None, 14400)             0
+ dense_42 (Dense)            (None, 100)               1440100
+ batch_normalization_58 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_27 (Dropout)        (None, 100)               0
+ dense_43 (Dense)            (None, 10)                1010
+ batch_normalization_59 (Bat  (None, 10)               40
+ chNormalization)
+ dense_44 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 4s 36ms/steploss: 0.3942 - tn: 18228.0000 - fn: 3493.0000 - tp: 18477.0000 - fp: 3896.0000 - accuracy: 0.8324 - recall: 0.8410 - precision: 0.8259 - auc: 0.9113
+Model: "sequential_15"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_30 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_60 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_30 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_28 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_31 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_61 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_31 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_15 (Flatten)        (None, 14400)             0
+ dense_45 (Dense)            (None, 100)               1440100
+ batch_normalization_62 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_29 (Dropout)        (None, 100)               0
+ dense_46 (Dense)            (None, 10)                1010
+ batch_normalization_63 (Bat  (None, 10)               40
+ chNormalization)
+ dense_47 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.3607 - tn: 27449.0000 - fn: 5192.0000 - tp: 27763.0000 - fp: 5737.0000 - accuracy: 0.8348 - recall: 0.8425 - precision: 0.8287 - auc: 0.9144Model: "sequential_16"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_32 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_64 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_32 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_30 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_33 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_65 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_33 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_16 (Flatten)        (None, 14400)             0
+ dense_48 (Dense)            (None, 100)               1440100
+ batch_normalization_66 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_31 (Dropout)        (None, 100)               0
+ dense_49 (Dense)            (None, 10)                1010
+ batch_normalization_67 (Bat  (None, 10)               40
+ chNormalization)
+ dense_50 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 23ms/steploss: 0.3734 - tn: 36418.0000 - fn: 6761.0000 - tp: 37179.0000 - fp: 7830.0000 - accuracy: 0.8345 - recall: 0.8461 - precision: 0.8260 - auc: 0.9143
+Model: "sequential_17"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_34 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_68 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_34 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_32 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_35 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_69 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_35 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_17 (Flatten)        (None, 14400)             0
+ dense_51 (Dense)            (None, 100)               1440100
+ batch_normalization_70 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_33 (Dropout)        (None, 100)               0
+ dense_52 (Dense)            (None, 10)                1010
+ batch_normalization_71 (Bat  (None, 10)               40
+ chNormalization)
+ dense_53 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 23ms/steploss: 0.4033 - tn: 45285.0000 - fn: 8649.0000 - tp: 46276.0000 - fp: 10025.0000 - accuracy: 0.8306 - recall: 0.8425 - precision: 0.8219 - auc: 0.9112
+Model: "sequential_18"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_36 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_72 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_36 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_34 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_37 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_73 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_37 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_18 (Flatten)        (None, 14400)             0
+ dense_54 (Dense)            (None, 100)               1440100
+ batch_normalization_74 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_35 (Dropout)        (None, 100)               0
+ dense_55 (Dense)            (None, 10)                1010
+ batch_normalization_75 (Bat  (None, 10)               40
+ chNormalization)
+ dense_56 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 2s 16ms/steploss: 0.3709 - tn: 54385.0000 - fn: 10289.0000 - tp: 55621.0000 - fp: 11987.0000 - accuracy: 0.8316 - recall: 0.8439 - precision: 0.8227 - auc: 0.9118
+689/689 [==============================] - 84s 116ms/step - loss: 0.3709 - tn: 54385.0000 - fn: 10289.0000 - tp: 55621.0000 - fp: 11987.0000 - accuracy: 0.8316 - recall: 0.8439 - precision: 0.8227 - auc: 0.9118
+Epoch 2/4
+ 59/689 [=>............................] - ETA: 57s - loss: 0.2128 - tn: 864.0000 - fn: 53.0000 - tp: 883.0000 - fp: 88.0000 - accuracy: 0.9253 - recall: 0.9434 - precision: 0.9094 - auc: 0.9679
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 29ms/steploss: 0.2085 - tn: 10090.0000 - fn: 672.0000 - tp: 10313.0000 - fp: 972.0000 - accuracy: 0.9254 - recall: 0.9388 - precision: 0.9139 - auc: 0.9700
+689/689 [==============================] - 100s 145ms/step - loss: 0.2085 - tn: 10090.0000 - fn: 672.0000 - tp: 10313.0000 - fp: 972.0000 - accuracy: 0.9254 - recall: 0.9388 - precision: 0.9139 - auc: 0.9700
+Epoch 3/4
+ 27/689 [>.............................] - ETA: 2:09 - loss: 0.1592 - tn: 402.0000 - fn: 22.0000 - tp: 409.0000 - fp: 31.0000 - accuracy: 0.9387 - recall: 0.9490 - precision: 0.9295 - auc: 0.9852
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 2s 19ms/steploss: 0.1780 - tn: 10275.0000 - fn: 595.0000 - tp: 10390.0000 - fp: 787.0000 - accuracy: 0.9373 - recall: 0.9458 - precision: 0.9296 - auc: 0.9780
+689/689 [==============================] - 101s 146ms/step - loss: 0.1780 - tn: 10275.0000 - fn: 595.0000 - tp: 10390.0000 - fp: 787.0000 - accuracy: 0.9373 - recall: 0.9458 - precision: 0.9296 - auc: 0.9780
+Epoch 4/4
+ 63/689 [=>............................] - ETA: 55s - loss: 0.1563 - tn: 964.0000 - fn: 42.0000 - tp: 942.0000 - fp: 68.0000 - accuracy: 0.9454 - recall: 0.9573 - precision: 0.9327 - auc: 0.9822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 31ms/steploss: 0.1510 - tn: 10393.0000 - fn: 494.0000 - tp: 10491.0000 - fp: 669.0000 - accuracy: 0.9472 - recall: 0.9550 - precision: 0.9401 - auc: 0.9846
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+689/689 [==============================] - 89s 127ms/step - loss: 0.1510 - tn: 10393.0000 - fn: 494.0000 - tp: 10491.0000 - fp: 669.0000 - accuracy: 0.9472 - recall: 0.9550 - precision: 0.9401 - auc: 0.9846
+Model: "sequential_19"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_38 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_76 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_38 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_36 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_39 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_77 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_39 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_19 (Flatten)        (None, 14400)             0
+ dense_57 (Dense)            (None, 100)               1440100
+ batch_normalization_78 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_37 (Dropout)        (None, 100)               0
+ dense_58 (Dense)            (None, 10)                1010
+ batch_normalization_79 (Bat  (None, 10)               40
+ chNormalization)
+ dense_59 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.3855 - tn: 19479.0000 - fn: 2312.0000 - tp: 19658.0000 - fp: 2645.0000 - accuracy: 0.8876 - recall: 0.8948 - precision: 0.8814 - auc: 0.9559Model: "sequential_20"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_40 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_80 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_40 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_38 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_41 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_81 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_41 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_20 (Flatten)        (None, 14400)             0
+ dense_60 (Dense)            (None, 100)               1440100
+ batch_normalization_82 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_39 (Dropout)        (None, 100)               0
+ dense_61 (Dense)            (None, 10)                1010
+ batch_normalization_83 (Bat  (None, 10)               40
+ chNormalization)
+ dense_62 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 11s 87ms/steposs: 0.3860 - tn: 28353.0000 - fn: 3962.0000 - tp: 28993.0000 - fp: 4833.0000 - accuracy: 0.8670 - recall: 0.8798 - precision: 0.8571 - auc: 0.9421
+Model: "sequential_21"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_42 (Conv2D)          (None, 126, 126, 6)       168
+ batch_normalization_84 (Bat  (None, 126, 126, 6)      24
+ chNormalization)
+ max_pooling2d_42 (MaxPoolin  (None, 63, 63, 6)        0
+ g2D)
+ dropout_40 (Dropout)        (None, 63, 63, 6)         0
+ conv2d_43 (Conv2D)          (None, 61, 61, 16)        880
+ batch_normalization_85 (Bat  (None, 61, 61, 16)       64
+ chNormalization)
+ max_pooling2d_43 (MaxPoolin  (None, 30, 30, 16)       0
+ g2D)
+ flatten_21 (Flatten)        (None, 14400)             0
+ dense_63 (Dense)            (None, 100)               1440100
+ batch_normalization_86 (Bat  (None, 100)              400
+ chNormalization)
+ dropout_41 (Dropout)        (None, 100)               0
+ dense_64 (Dense)            (None, 10)                1010
+ batch_normalization_87 (Bat  (None, 10)               40
+ chNormalization)
+ dense_65 (Dense)            (None, 1)                 11
+=================================================================
+Total params: 1,442,697
+Trainable params: 1,442,433
+Non-trainable params: 264
+_________________________________________________________________
+Epoch 1/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 5s 43ms/steploss: 0.3653 - tn: 37224.0000 - fn: 5398.0000 - tp: 38542.0000 - fp: 7024.0000 - accuracy: 0.8591 - recall: 0.8772 - precision: 0.8458 - auc: 0.9362
+689/689 [==============================] - 132s 182ms/step - loss: 0.3653 - tn: 37224.0000 - fn: 5398.0000 - tp: 38542.0000 - fp: 7024.0000 - accuracy: 0.8591 - recall: 0.8772 - precision: 0.8458 - auc: 0.9362
+Epoch 2/10
+ 11/689 [..............................] - ETA: 2:44 - loss: 0.2097 - tn: 165.0000 - fn: 11.0000 - tp: 157.0000 - fp: 19.0000 - accuracy: 0.9148 - recall: 0.9345 - precision: 0.8920 - auc: 0.9716
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 32ms/steploss: 0.1973 - tn: 10157.0000 - fn: 645.0000 - tp: 10340.0000 - fp: 905.0000 - accuracy: 0.9297 - recall: 0.9413 - precision: 0.9195 - auc: 0.9734
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+689/689 [==============================] - 98s 140ms/step - loss: 0.1973 - tn: 10157.0000 - fn: 645.0000 - tp: 10340.0000 - fp: 905.0000 - accuracy: 0.9297 - recall: 0.9413 - precision: 0.9195 - auc: 0.9734
+Epoch 3/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 23ms/steploss: 0.1615 - tn: 10346.0000 - fn: 501.0000 - tp: 10484.0000 - fp: 716.0000 - accuracy: 0.9448 - recall: 0.9544 - precision: 0.9361 - auc: 0.9816
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+689/689 [==============================] - 105s 151ms/step - loss: 0.1615 - tn: 10346.0000 - fn: 501.0000 - tp: 10484.0000 - fp: 716.0000 - accuracy: 0.9448 - recall: 0.9544 - precision: 0.9361 - auc: 0.9816
+Epoch 4/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 2s 18ms/steploss: 0.1342 - tn: 10421.0000 - fn: 386.0000 - tp: 10599.0000 - fp: 641.0000 - accuracy: 0.9534 - recall: 0.9649 - precision: 0.9430 - auc: 0.9866
+689/689 [==============================] - 88s 126ms/step - loss: 0.1342 - tn: 10421.0000 - fn: 386.0000 - tp: 10599.0000 - fp: 641.0000 - accuracy: 0.9534 - recall: 0.9649 - precision: 0.9430 - auc: 0.9866
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+Epoch 5/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 25ms/steploss: 0.1300 - tn: 10449.0000 - fn: 388.0000 - tp: 10597.0000 - fp: 613.0000 - accuracy: 0.9546 - recall: 0.9647 - precision: 0.9453 - auc: 0.9874
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+689/689 [==============================] - 95s 137ms/step - loss: 0.1300 - tn: 10449.0000 - fn: 388.0000 - tp: 10597.0000 - fp: 613.0000 - accuracy: 0.9546 - recall: 0.9647 - precision: 0.9453 - auc: 0.9874
+Epoch 6/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 26ms/steploss: 0.1016 - tn: 10558.0000 - fn: 265.0000 - tp: 10720.0000 - fp: 504.0000 - accuracy: 0.9651 - recall: 0.9759 - precision: 0.9551 - auc: 0.9921
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+689/689 [==============================] - 92s 133ms/step - loss: 0.1016 - tn: 10558.0000 - fn: 265.0000 - tp: 10720.0000 - fp: 504.0000 - accuracy: 0.9651 - recall: 0.9759 - precision: 0.9551 - auc: 0.9921
+Epoch 7/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 25ms/steploss: 0.0925 - tn: 10619.0000 - fn: 274.0000 - tp: 10711.0000 - fp: 443.0000 - accuracy: 0.9675 - recall: 0.9751 - precision: 0.9603 - auc: 0.9934
+689/689 [==============================] - 97s 140ms/step - loss: 0.0925 - tn: 10619.0000 - fn: 274.0000 - tp: 10711.0000 - fp: 443.0000 - accuracy: 0.9675 - recall: 0.9751 - precision: 0.9603 - auc: 0.9934
+Epoch 8/10
+ 33/689 [>.............................] - ETA: 1:21 - loss: 0.0816 - tn: 534.0000 - fn: 9.0000 - tp: 500.0000 - fp: 13.0000 - accuracy: 0.9792 - recall: 0.9823 - precision: 0.9747 - auc: 0.9936
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 3s 29ms/steploss: 0.0767 - tn: 10710.0000 - fn: 202.0000 - tp: 10783.0000 - fp: 352.0000 - accuracy: 0.9749 - recall: 0.9816 - precision: 0.9684 - auc: 0.9950
+689/689 [==============================] - 95s 136ms/step - loss: 0.0767 - tn: 10710.0000 - fn: 202.0000 - tp: 10783.0000 - fp: 352.0000 - accuracy: 0.9749 - recall: 0.9816 - precision: 0.9684 - auc: 0.9950
+Epoch 9/10
+ 30/689 [>.............................] - ETA: 1:21 - loss: 0.0606 - tn: 462.0000 - fn: 8.0000 - tp: 477.0000 - fp: 13.0000 - accuracy: 0.9781 - recall: 0.9835 - precision: 0.9735 - auc: 0.9966
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 2s 23ms/steploss: 0.0608 - tn: 10787.0000 - fn: 163.0000 - tp: 10822.0000 - fp: 275.0000 - accuracy: 0.9801 - recall: 0.9852 - precision: 0.9752 - auc: 0.9966
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.
+689/689 [==============================] - 97s 140ms/step - loss: 0.0608 - tn: 10787.0000 - fn: 163.0000 - tp: 10822.0000 - fp: 275.0000 - accuracy: 0.9801 - recall: 0.9852 - precision: 0.9752 - auc: 0.9966
+Epoch 10/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87/87 [==============================] - 2s 21ms/steploss: 0.0502 - tn: 10839.0000 - fn: 121.0000 - tp: 10864.0000 - fp: 223.0000 - accuracy: 0.9844 - recall: 0.9890 - precision: 0.9799 - auc: 0.9975
+689/689 [==============================] - 91s 131ms/step - loss: 0.0502 - tn: 10839.0000 - fn: 121.0000 - tp: 10864.0000 - fp: 223.0000 - accuracy: 0.9844 - recall: 0.9890 - precision: 0.9799 - auc: 0.9975
+[34m[1mwandb[39m[22m: [33mWARNING[39m No validation_data set, pass a generator to the callback.

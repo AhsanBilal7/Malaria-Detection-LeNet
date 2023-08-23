@@ -1,0 +1,965 @@
+2023-07-31 00:25:21,896 INFO    StreamThr :3856 [internal.py:wandb_internal():86] W&B internal server running at pid: 3856, started at: 2023-07-31 00:25:21.858692
+2023-07-31 00:25:21,904 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status
+2023-07-31 00:25:21,908 INFO    WriterThread:3856 [datastore.py:open_for_write():85] open: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\run-nlvan2oo.wandb
+2023-07-31 00:25:21,916 DEBUG   SenderThread:3856 [sender.py:send():379] send: header
+2023-07-31 00:25:21,916 DEBUG   SenderThread:3856 [sender.py:send():379] send: run
+2023-07-31 00:25:23,051 INFO    SenderThread:3856 [dir_watcher.py:__init__():211] watching files in: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files
+2023-07-31 00:25:23,051 INFO    SenderThread:3856 [sender.py:_start_run_threads():1122] run started: nlvan2oo with start time 1690745121.853695
+2023-07-31 00:25:23,051 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:25:23,053 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:25:23,111 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: check_version
+2023-07-31 00:25:23,111 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: check_version
+2023-07-31 00:25:23,923 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: run_start
+2023-07-31 00:25:23,951 DEBUG   HandlerThread:3856 [system_info.py:__init__():31] System info init
+2023-07-31 00:25:23,951 DEBUG   HandlerThread:3856 [system_info.py:__init__():46] System info init done
+2023-07-31 00:25:23,951 INFO    HandlerThread:3856 [system_monitor.py:start():181] Starting system monitor
+2023-07-31 00:25:23,953 INFO    SystemMonitor:3856 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-31 00:25:23,953 INFO    HandlerThread:3856 [system_monitor.py:probe():201] Collecting system info
+2023-07-31 00:25:23,965 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started cpu monitoring
+2023-07-31 00:25:23,968 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started disk monitoring
+2023-07-31 00:25:23,978 DEBUG   HandlerThread:3856 [system_info.py:probe():195] Probing system
+2023-07-31 00:25:23,983 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started gpu monitoring
+2023-07-31 00:25:24,007 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started memory monitoring
+2023-07-31 00:25:24,019 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started network monitoring
+2023-07-31 00:25:24,031 DEBUG   HandlerThread:3856 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-31 00:25:24,031 DEBUG   HandlerThread:3856 [system_info.py:probe():240] Probing system done
+2023-07-31 00:25:24,032 DEBUG   HandlerThread:3856 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.16', 'heartbeatAt': '2023-07-30T19:25:23.978295', 'startedAt': '2023-07-30T19:25:21.799450', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'host': 'ahsan', 'username': 'Pc', 'executable': 'c:\\Users\\Pc\\miniconda3\\envs\\tf\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2100.0, 'min': 0.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 0.0, 'max': 2100.0}], 'disk': {'total': 195.31151962280273, 'used': 185.42296600341797}, 'gpu': 'NVIDIA GeForce RTX 3050 6GB Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 6GB Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 7.64898681640625}}
+2023-07-31 00:25:24,032 INFO    HandlerThread:3856 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-31 00:25:24,032 INFO    HandlerThread:3856 [system_monitor.py:probe():214] Publishing system info
+2023-07-31 00:25:24,032 DEBUG   HandlerThread:3856 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-31 00:25:24,038 DEBUG   HandlerThread:3856 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-31 00:25:24,040 DEBUG   HandlerThread:3856 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-31 00:25:24,067 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-summary.json
+2023-07-31 00:25:24,068 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\requirements.txt
+2023-07-31 00:25:24,068 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\conda-environment.yaml
+2023-07-31 00:25:32,778 DEBUG   HandlerThread:3856 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-31 00:25:32,781 INFO    HandlerThread:3856 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-31 00:25:32,783 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:25:32,783 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:25:32,783 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:25:32,784 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:25:32,784 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2023-07-31 00:25:32,814 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:25:32,815 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:25:32,827 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: pause
+2023-07-31 00:25:32,828 INFO    HandlerThread:3856 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-31 00:25:32,828 INFO    HandlerThread:3856 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-31 00:25:32,828 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-31 00:25:32,828 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-31 00:25:32,839 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-31 00:25:32,839 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-31 00:25:32,840 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined disk monitor
+2023-07-31 00:25:32,944 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-31 00:25:32,945 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined memory monitor
+2023-07-31 00:25:32,945 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined network monitor
+2023-07-31 00:25:32,945 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: resume
+2023-07-31 00:25:32,945 INFO    HandlerThread:3856 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-31 00:25:32,945 INFO    HandlerThread:3856 [system_monitor.py:start():181] Starting system monitor
+2023-07-31 00:25:32,946 INFO    SystemMonitor:3856 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-31 00:25:32,946 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: pause
+2023-07-31 00:25:32,946 INFO    HandlerThread:3856 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-31 00:25:32,948 INFO    HandlerThread:3856 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-31 00:25:32,948 WARNING HandlerThread:3856 [interfaces.py:finish():207] Failed to finish cpu monitoring: cannot join thread before it is started
+2023-07-31 00:25:32,948 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started cpu monitoring
+2023-07-31 00:25:32,948 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-31 00:25:32,948 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-31 00:25:32,948 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-31 00:25:32,949 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: resume
+2023-07-31 00:25:32,949 INFO    HandlerThread:3856 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-31 00:25:32,949 INFO    HandlerThread:3856 [system_monitor.py:start():181] Starting system monitor
+2023-07-31 00:25:32,950 INFO    SystemMonitor:3856 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-31 00:25:32,950 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: pause
+2023-07-31 00:25:32,950 INFO    HandlerThread:3856 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-31 00:25:32,950 INFO    HandlerThread:3856 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-31 00:25:32,950 WARNING HandlerThread:3856 [interfaces.py:finish():207] Failed to finish cpu monitoring: cannot join thread before it is started
+2023-07-31 00:25:32,950 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started cpu monitoring
+2023-07-31 00:25:32,951 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-31 00:25:32,951 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-31 00:25:32,951 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-31 00:25:32,964 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: resume
+2023-07-31 00:25:32,964 INFO    HandlerThread:3856 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-31 00:25:32,964 INFO    HandlerThread:3856 [system_monitor.py:start():181] Starting system monitor
+2023-07-31 00:25:32,965 INFO    SystemMonitor:3856 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-31 00:25:32,975 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started cpu monitoring
+2023-07-31 00:25:32,975 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: pause
+2023-07-31 00:25:32,976 INFO    HandlerThread:3856 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-31 00:25:32,976 INFO    HandlerThread:3856 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-31 00:25:32,976 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started disk monitoring
+2023-07-31 00:25:32,976 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-31 00:25:32,976 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-31 00:25:32,976 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-31 00:25:32,977 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined disk monitor
+2023-07-31 00:25:32,977 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-31 00:25:32,992 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: resume
+2023-07-31 00:25:32,992 INFO    HandlerThread:3856 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-31 00:25:32,992 INFO    HandlerThread:3856 [system_monitor.py:start():181] Starting system monitor
+2023-07-31 00:25:32,993 INFO    SystemMonitor:3856 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-31 00:25:33,004 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started cpu monitoring
+2023-07-31 00:25:33,006 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started disk monitoring
+2023-07-31 00:25:33,007 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started gpu monitoring
+2023-07-31 00:25:33,051 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started memory monitoring
+2023-07-31 00:25:33,099 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started network monitoring
+2023-07-31 00:25:33,156 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\conda-environment.yaml
+2023-07-31 00:25:33,157 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-metadata.json
+2023-07-31 00:25:33,435 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: pause
+2023-07-31 00:25:33,436 INFO    HandlerThread:3856 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-31 00:25:33,436 INFO    HandlerThread:3856 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-31 00:25:33,436 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-31 00:25:33,448 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-31 00:25:33,450 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-31 00:25:33,451 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-31 00:25:33,452 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined disk monitor
+2023-07-31 00:25:33,546 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-31 00:25:33,547 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined memory monitor
+2023-07-31 00:25:33,547 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined network monitor
+2023-07-31 00:25:33,547 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: resume
+2023-07-31 00:25:33,547 INFO    HandlerThread:3856 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-31 00:25:33,547 INFO    HandlerThread:3856 [system_monitor.py:start():181] Starting system monitor
+2023-07-31 00:25:33,547 INFO    SystemMonitor:3856 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-31 00:25:33,547 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-31 00:25:33,559 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started cpu monitoring
+2023-07-31 00:25:33,561 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started disk monitoring
+2023-07-31 00:25:33,561 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started gpu monitoring
+2023-07-31 00:25:33,586 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started memory monitoring
+2023-07-31 00:25:33,598 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started network monitoring
+2023-07-31 00:25:33,675 DEBUG   SenderThread:3856 [sender.py:send():379] send: telemetry
+2023-07-31 00:25:33,676 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:25:33,677 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:25:33,678 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:25:33,685 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:25:33,685 DEBUG   SenderThread:3856 [sender.py:send():379] send: telemetry
+2023-07-31 00:25:33,686 DEBUG   SenderThread:3856 [sender.py:send():379] send: telemetry
+2023-07-31 00:25:33,686 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:25:33,686 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file model-best.h5 with policy live
+2023-07-31 00:25:33,687 DEBUG   SenderThread:3856 [sender.py:send():379] send: telemetry
+2023-07-31 00:25:33,687 DEBUG   SenderThread:3856 [sender.py:send():379] send: telemetry
+2023-07-31 00:25:34,097 INFO    wandb-upload_0:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\vh9amz9m-wandb-metadata.json
+2023-07-31 00:25:34,165 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:36,185 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:37,748 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:25:40,144 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:25:40,144 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\graph\graph_summary_9a70f89f06014afd142d.graph.json with policy now
+2023-07-31 00:25:40,221 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:25:40,226 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:25:40,229 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-summary.json
+2023-07-31 00:25:40,231 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\graph\graph_summary_9a70f89f06014afd142d.graph.json
+2023-07-31 00:25:40,232 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\graph
+2023-07-31 00:25:40,233 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media
+2023-07-31 00:25:40,911 INFO    wandb-upload_0:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\hzom7ash-media/graph/graph_summary_9a70f89f06014afd142d.graph.json
+2023-07-31 00:25:41,697 INFO    wandb-upload_0:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\o34cmkv5-media/graph/graph_summary_9a70f89f06014afd142d.graph.json
+2023-07-31 00:25:42,274 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:42,898 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:25:44,278 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:46,300 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:47,850 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:25:47,852 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:25:48,238 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:25:48,318 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:50,331 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:52,352 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:53,273 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:25:54,376 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\config.yaml
+2023-07-31 00:25:54,377 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:56,393 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:58,414 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:25:58,619 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:00,426 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:02,447 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:02,849 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:26:02,850 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:26:03,724 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:04,471 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:06,491 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:08,517 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:08,809 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:10,539 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:12,554 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:13,893 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:14,573 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:16,593 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:17,868 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:26:17,868 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:26:18,615 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:18,950 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:20,637 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:22,677 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:24,031 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:24,707 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:26,727 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:28,762 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:29,128 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:30,799 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:32,865 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:32,889 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:26:32,890 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:26:33,603 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-31 00:26:33,603 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:26:34,161 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:34,926 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:36,949 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:38,977 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:39,223 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:41,001 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:43,023 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:44,274 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:45,054 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:47,094 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:47,901 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:26:47,902 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:26:49,140 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:49,339 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:51,176 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:53,200 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:54,368 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:26:55,250 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:57,299 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:58,318 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:26:59,447 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:27:00,365 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:02,393 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:02,933 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:27:02,934 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:27:03,610 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:27:04,419 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:04,810 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:27:09,836 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:27:14,882 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:27:17,944 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:27:17,945 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:27:19,895 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:27:20,732 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:22,793 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:23,600 DEBUG   SenderThread:3856 [sender.py:send():379] send: config
+2023-07-31 00:27:25,000 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-31 00:27:25,003 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: log_artifact
+2023-07-31 00:27:25,051 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:27:25,059 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:27:25,068 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:27:25,878 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\table\conf_mat_table_0_d07b2477e434ccd1a49a.table.json
+2023-07-31 00:27:25,881 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\Confusion_Matrix_2_bcb6ee7f044f4591e446.png
+2023-07-31 00:27:25,887 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\roc_1_d3ef22770f3bfb63fc66.png
+2023-07-31 00:27:25,892 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media
+2023-07-31 00:27:25,893 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\table
+2023-07-31 00:27:25,893 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images
+2023-07-31 00:27:26,729 INFO    wandb-upload_0:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\92ov7er2-media/table/conf_mat_table_0_d07b2477e434ccd1a49a.table.json
+2023-07-31 00:27:27,855 INFO    wandb-upload_2:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\62g2fveg-media/images/roc_1_d3ef22770f3bfb63fc66.png
+2023-07-31 00:27:28,374 INFO    wandb-upload_3:3856 [upload_job.py:push():89] Uploaded file C:\Users\Pc\AppData\Local\wandb\wandb\artifacts\staging\tmpd05pdrzo
+2023-07-31 00:27:28,448 INFO    wandb-upload_1:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\n6rhp0qn-media/images/Confusion_Matrix_2_bcb6ee7f044f4591e446.png
+2023-07-31 00:27:28,951 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_86daf719a2c974ad1752.png
+2023-07-31 00:27:28,952 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_4ab81b4d721b76370d7e.png
+2023-07-31 00:27:28,954 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_f574d143b58cabf49311.png
+2023-07-31 00:27:28,955 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_92769c723967b9b1d349.png
+2023-07-31 00:27:28,957 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_50806ebefb52246de6c0.png
+2023-07-31 00:27:28,959 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_1771067eae380a4995a1.png
+2023-07-31 00:27:28,960 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_186b1a441687733334fb.png
+2023-07-31 00:27:28,961 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_5f5b6e5a3ab246fa0ce6.png
+2023-07-31 00:27:28,962 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_c2a49e5a50344587d2fa.png
+2023-07-31 00:27:28,963 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_53ff22097990a99b8b62.png
+2023-07-31 00:27:28,964 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_ae27be5d53cfac5dd398.png
+2023-07-31 00:27:28,965 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_1a5cafcef75602ef5712.png
+2023-07-31 00:27:28,968 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_f0d685fb01de917e1a7a.png
+2023-07-31 00:27:28,970 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_a113b40d19ea64594b9c.png
+2023-07-31 00:27:28,971 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_502fbbecb4ad1b094572.png
+2023-07-31 00:27:28,973 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_3b0cf093ad70dfcbed46.png
+2023-07-31 00:27:28,974 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_f95eb5d34e2b1a44bcc7.png
+2023-07-31 00:27:28,977 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_7bf28d9f9275d4d94dca.png
+2023-07-31 00:27:28,980 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_8e00e33a3d02214f7317.png
+2023-07-31 00:27:28,981 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_7a8df33ffb200679eb14.png
+2023-07-31 00:27:28,981 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_c3f714df7d2f169c7402.png
+2023-07-31 00:27:28,983 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_d2ba4a149bc7b7cef10f.png
+2023-07-31 00:27:28,984 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_2efb675254d2633de04e.png
+2023-07-31 00:27:28,985 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_bc188866808e0ea9890a.png
+2023-07-31 00:27:28,987 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_61fc1d1cfb236ab4fed4.png
+2023-07-31 00:27:28,988 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_676bbceb496e2aafda50.png
+2023-07-31 00:27:28,989 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_1e8b0626b8016fbd5fca.png
+2023-07-31 00:27:28,990 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_a7319bfcfa0d84bf401f.png
+2023-07-31 00:27:28,991 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_ec8dbf178f5f46a02d71.png
+2023-07-31 00:27:28,991 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_e8ef47f43fb17f96b86e.png
+2023-07-31 00:27:28,993 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_a85c97c633a617154f6d.png
+2023-07-31 00:27:28,994 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_da7a132af0898406f2c1.png
+2023-07-31 00:27:28,995 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images
+2023-07-31 00:27:29,052 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:27:29,054 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:27:29,058 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:27:29,553 INFO    SenderThread:3856 [sender.py:send_request_log_artifact():1442] logged artifact run-nlvan2oo-conf_mat_table - {'id': 'QXJ0aWZhY3Q6NTI3NDE3Mjk3', 'digest': 'bb6ba1e5a0c3d80b95ba5677f940870a', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg2Njk2MDE3', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-31 00:27:29,569 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:27:30,081 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best.h5
+2023-07-31 00:27:30,570 INFO    wandb-upload_2:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\edfcqjgm-media/images/examples_3_f574d143b58cabf49311.png
+2023-07-31 00:27:30,637 INFO    wandb-upload_4:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\3o9ce0e0-media/images/examples_3_4ab81b4d721b76370d7e.png
+2023-07-31 00:27:31,102 INFO    wandb-upload_23:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\cigif0xw-media/images/examples_3_bc188866808e0ea9890a.png
+2023-07-31 00:27:31,179 INFO    wandb-upload_21:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\buyn9pa5-media/images/examples_3_d2ba4a149bc7b7cef10f.png
+2023-07-31 00:27:31,584 INFO    wandb-upload_30:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\i863dbzd-media/images/examples_3_a85c97c633a617154f6d.png
+2023-07-31 00:27:31,976 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,977 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\table\conf_mat_table_0_d07b2477e434ccd1a49a.table.json with policy now
+2023-07-31 00:27:31,978 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:27:31,978 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:27:31,979 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:27:31,980 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,980 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\roc_1_d3ef22770f3bfb63fc66.png with policy now
+2023-07-31 00:27:31,980 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:27:31,980 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:27:31,981 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:27:31,981 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,981 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\Confusion_Matrix_2_bcb6ee7f044f4591e446.png with policy now
+2023-07-31 00:27:31,983 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:27:31,986 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:27:31,990 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:27:31,991 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,992 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_8e00e33a3d02214f7317.png with policy now
+2023-07-31 00:27:31,993 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,993 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_ec8dbf178f5f46a02d71.png with policy now
+2023-07-31 00:27:31,994 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,994 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_86daf719a2c974ad1752.png with policy now
+2023-07-31 00:27:31,996 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,996 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_f0d685fb01de917e1a7a.png with policy now
+2023-07-31 00:27:31,997 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:31,997 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_a85c97c633a617154f6d.png with policy now
+2023-07-31 00:27:32,002 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,003 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_3b0cf093ad70dfcbed46.png with policy now
+2023-07-31 00:27:32,004 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,004 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_e8ef47f43fb17f96b86e.png with policy now
+2023-07-31 00:27:32,005 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,005 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_186b1a441687733334fb.png with policy now
+2023-07-31 00:27:32,005 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,005 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_1a5cafcef75602ef5712.png with policy now
+2023-07-31 00:27:32,006 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,006 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_c2a49e5a50344587d2fa.png with policy now
+2023-07-31 00:27:32,006 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,007 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_c3f714df7d2f169c7402.png with policy now
+2023-07-31 00:27:32,007 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,007 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_bc188866808e0ea9890a.png with policy now
+2023-07-31 00:27:32,008 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,008 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_2efb675254d2633de04e.png with policy now
+2023-07-31 00:27:32,009 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,009 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_d2ba4a149bc7b7cef10f.png with policy now
+2023-07-31 00:27:32,010 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,010 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_a7319bfcfa0d84bf401f.png with policy now
+2023-07-31 00:27:32,010 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,010 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_a113b40d19ea64594b9c.png with policy now
+2023-07-31 00:27:32,014 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,030 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_7a8df33ffb200679eb14.png with policy now
+2023-07-31 00:27:32,033 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,035 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_92769c723967b9b1d349.png with policy now
+2023-07-31 00:27:32,039 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,041 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_da7a132af0898406f2c1.png with policy now
+2023-07-31 00:27:32,041 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,041 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_1e8b0626b8016fbd5fca.png with policy now
+2023-07-31 00:27:32,043 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,043 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_7bf28d9f9275d4d94dca.png with policy now
+2023-07-31 00:27:32,043 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,043 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_502fbbecb4ad1b094572.png with policy now
+2023-07-31 00:27:32,044 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,070 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_5f5b6e5a3ab246fa0ce6.png with policy now
+2023-07-31 00:27:32,075 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,075 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_50806ebefb52246de6c0.png with policy now
+2023-07-31 00:27:32,076 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,076 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_676bbceb496e2aafda50.png with policy now
+2023-07-31 00:27:32,077 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,077 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_1771067eae380a4995a1.png with policy now
+2023-07-31 00:27:32,078 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,078 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_61fc1d1cfb236ab4fed4.png with policy now
+2023-07-31 00:27:32,079 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,079 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_f574d143b58cabf49311.png with policy now
+2023-07-31 00:27:32,079 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,079 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_4ab81b4d721b76370d7e.png with policy now
+2023-07-31 00:27:32,080 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,080 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_53ff22097990a99b8b62.png with policy now
+2023-07-31 00:27:32,081 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,081 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_f95eb5d34e2b1a44bcc7.png with policy now
+2023-07-31 00:27:32,081 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:27:32,081 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_3_ae27be5d53cfac5dd398.png with policy now
+2023-07-31 00:27:32,084 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:27:32,084 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:27:32,089 INFO    wandb-upload_17:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\0x9824m2-media/images/examples_3_7bf28d9f9275d4d94dca.png
+2023-07-31 00:27:32,089 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:27:32,093 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:27:32,097 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:27:32,099 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:27:32,102 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:27:32,136 INFO    wandb-upload_5:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\1v2qfr1d-media/images/examples_3_50806ebefb52246de6c0.png
+2023-07-31 00:27:32,227 INFO    wandb-upload_0:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\3qvq0y3t-media/images/examples_3_86daf719a2c974ad1752.png
+2023-07-31 00:27:32,236 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\config.yaml
+2023-07-31 00:27:32,237 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-summary.json
+2023-07-31 00:27:32,314 INFO    wandb-upload_24:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\b6d9s1se-media/images/examples_3_61fc1d1cfb236ab4fed4.png
+2023-07-31 00:27:32,482 INFO    wandb-upload_20:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ieog0dua-media/images/examples_3_c3f714df7d2f169c7402.png
+2023-07-31 00:27:32,517 INFO    wandb-upload_6:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\j5nf1gjs-media/images/examples_3_186b1a441687733334fb.png
+2023-07-31 00:27:32,527 INFO    wandb-upload_27:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\myw28shm-media/images/examples_3_a7319bfcfa0d84bf401f.png
+2023-07-31 00:27:32,560 INFO    wandb-upload_29:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\68ug6sws-media/images/examples_3_e8ef47f43fb17f96b86e.png
+2023-07-31 00:27:32,618 INFO    wandb-upload_16:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ergro6hn-media/images/examples_3_f95eb5d34e2b1a44bcc7.png
+2023-07-31 00:27:32,726 INFO    wandb-upload_14:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\q4j2dpdr-media/images/examples_3_502fbbecb4ad1b094572.png
+2023-07-31 00:27:32,783 INFO    wandb-upload_2:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\yhgdjb1r-media/images/examples_3_da7a132af0898406f2c1.png
+2023-07-31 00:27:32,965 INFO    wandb-upload_26:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\1rnvoen8-media/images/examples_3_1e8b0626b8016fbd5fca.png
+2023-07-31 00:27:32,998 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:27:33,003 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:27:33,026 INFO    wandb-upload_1:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\lnw8epl3-media/images/examples_3_1771067eae380a4995a1.png
+2023-07-31 00:27:33,048 INFO    wandb-upload_21:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\iaawaquh-media/images/roc_1_d3ef22770f3bfb63fc66.png
+2023-07-31 00:27:33,073 INFO    wandb-upload_23:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\pfp6rc1v-media/images/Confusion_Matrix_2_bcb6ee7f044f4591e446.png
+2023-07-31 00:27:33,083 INFO    wandb-upload_30:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ldod94ex-media/images/examples_3_a85c97c633a617154f6d.png
+2023-07-31 00:27:33,096 INFO    wandb-upload_11:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\p4rn216h-media/images/examples_3_1a5cafcef75602ef5712.png
+2023-07-31 00:27:33,107 INFO    wandb-upload_10:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\2ft94m2t-media/images/examples_3_ae27be5d53cfac5dd398.png
+2023-07-31 00:27:33,119 INFO    wandb-upload_17:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ezmoeyow-media/images/examples_3_bc188866808e0ea9890a.png
+2023-07-31 00:27:33,194 INFO    wandb-upload_9:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ao9jg4im-media/images/examples_3_53ff22097990a99b8b62.png
+2023-07-31 00:27:33,205 INFO    wandb-upload_18:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\cddxyuz3-media/images/examples_3_8e00e33a3d02214f7317.png
+2023-07-31 00:27:33,219 INFO    wandb-upload_13:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\n0xa36qs-media/images/examples_3_a113b40d19ea64594b9c.png
+2023-07-31 00:27:33,254 INFO    wandb-upload_12:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\752ri70p-media/images/examples_3_f0d685fb01de917e1a7a.png
+2023-07-31 00:27:33,258 INFO    wandb-upload_24:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\jr04p7n1-media/images/examples_3_86daf719a2c974ad1752.png
+2023-07-31 00:27:33,266 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:33,373 INFO    wandb-upload_22:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\lxcsng8h-media/images/examples_3_2efb675254d2633de04e.png
+2023-07-31 00:27:33,424 INFO    wandb-upload_20:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\msrctc4y-media/images/examples_3_e8ef47f43fb17f96b86e.png
+2023-07-31 00:27:33,493 INFO    wandb-upload_25:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\9dudmnhc-media/images/examples_3_676bbceb496e2aafda50.png
+2023-07-31 00:27:33,553 INFO    wandb-upload_7:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\of2lwewi-media/images/examples_3_5f5b6e5a3ab246fa0ce6.png
+2023-07-31 00:27:33,579 INFO    wandb-upload_27:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\dpr2b0wj-media/images/examples_3_186b1a441687733334fb.png
+2023-07-31 00:27:33,617 INFO    wandb-upload_8:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\w8kzjc9c-media/images/examples_3_c2a49e5a50344587d2fa.png
+2023-07-31 00:27:33,620 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:27:33,683 INFO    wandb-upload_19:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\spr1m2ij-media/images/examples_3_7a8df33ffb200679eb14.png
+2023-07-31 00:27:33,838 INFO    wandb-upload_15:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\krq7cww3-media/images/examples_3_3b0cf093ad70dfcbed46.png
+2023-07-31 00:27:33,914 INFO    wandb-upload_4:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\9wzryvk4-media/table/conf_mat_table_0_d07b2477e434ccd1a49a.table.json
+2023-07-31 00:27:33,921 INFO    wandb-upload_29:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ti84d8m7-media/images/examples_3_a7319bfcfa0d84bf401f.png
+2023-07-31 00:27:33,925 INFO    wandb-upload_6:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\xkftw69s-media/images/examples_3_c3f714df7d2f169c7402.png
+2023-07-31 00:27:33,927 INFO    wandb-upload_3:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\6o6y7tph-media/images/examples_3_92769c723967b9b1d349.png
+2023-07-31 00:27:33,987 INFO    wandb-upload_2:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\3pehvvu0-media/images/examples_3_da7a132af0898406f2c1.png
+2023-07-31 00:27:34,008 INFO    wandb-upload_28:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ksbuh6uz-media/images/examples_3_ec8dbf178f5f46a02d71.png
+2023-07-31 00:27:34,016 INFO    wandb-upload_16:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\swox9z0k-media/images/examples_3_1e8b0626b8016fbd5fca.png
+2023-07-31 00:27:34,085 INFO    wandb-upload_0:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\hddm8u5s-media/images/examples_3_7bf28d9f9275d4d94dca.png
+2023-07-31 00:27:34,085 INFO    wandb-upload_32:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\k7b722u1-media/images/examples_3_50806ebefb52246de6c0.png
+2023-07-31 00:27:34,101 INFO    wandb-upload_33:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\fi99dpen-media/images/examples_3_f574d143b58cabf49311.png
+2023-07-31 00:27:34,101 INFO    wandb-upload_5:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\fpywmtvs-media/images/examples_3_d2ba4a149bc7b7cef10f.png
+2023-07-31 00:27:34,137 INFO    wandb-upload_23:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\8lbc2g3e-media/images/examples_3_8e00e33a3d02214f7317.png
+2023-07-31 00:27:34,151 INFO    wandb-upload_11:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\no5me5nj-media/images/examples_3_1771067eae380a4995a1.png
+2023-07-31 00:27:34,157 INFO    wandb-upload_34:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\g96itzx1-media/images/examples_3_4ab81b4d721b76370d7e.png
+2023-07-31 00:27:34,274 INFO    wandb-upload_26:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\cg48l2r8-media/images/examples_3_61fc1d1cfb236ab4fed4.png
+2023-07-31 00:27:34,302 INFO    wandb-upload_1:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\3s4tzcnn-media/images/examples_3_53ff22097990a99b8b62.png
+2023-07-31 00:27:34,305 INFO    wandb-upload_21:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\l2ja5wov-media/images/examples_3_502fbbecb4ad1b094572.png
+2023-07-31 00:27:34,421 INFO    wandb-upload_14:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\p56lzdw5-media/images/examples_3_f95eb5d34e2b1a44bcc7.png
+2023-07-31 00:27:34,479 INFO    wandb-upload_13:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\pdx1tm83-media/images/examples_3_ae27be5d53cfac5dd398.png
+2023-07-31 00:27:34,590 INFO    wandb-upload_12:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\mjfdwc3c-media/images/examples_3_f0d685fb01de917e1a7a.png
+2023-07-31 00:27:34,835 INFO    wandb-upload_10:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\lwqrc71e-media/images/examples_3_1a5cafcef75602ef5712.png
+2023-07-31 00:27:34,898 INFO    wandb-upload_9:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\cpk0gos0-media/images/examples_3_2efb675254d2633de04e.png
+2023-07-31 00:27:34,907 INFO    wandb-upload_17:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\nmjqadzi-media/images/examples_3_c2a49e5a50344587d2fa.png
+2023-07-31 00:27:34,939 INFO    wandb-upload_7:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\tv6p8lkd-media/images/examples_3_7a8df33ffb200679eb14.png
+2023-07-31 00:27:34,948 INFO    wandb-upload_3:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\6avs6rpt-media/images/examples_3_a113b40d19ea64594b9c.png
+2023-07-31 00:27:34,993 INFO    wandb-upload_15:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\cn5mb6v2-media/images/examples_3_676bbceb496e2aafda50.png
+2023-07-31 00:27:35,025 INFO    wandb-upload_8:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\3mfftm2n-media/images/examples_3_5f5b6e5a3ab246fa0ce6.png
+2023-07-31 00:27:35,063 INFO    wandb-upload_27:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\spx8e903-media/images/examples_3_92769c723967b9b1d349.png
+2023-07-31 00:27:35,083 INFO    wandb-upload_20:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\xnwnddbt-media/images/examples_3_ec8dbf178f5f46a02d71.png
+2023-07-31 00:27:35,095 INFO    wandb-upload_4:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\tbgfaah3-media/images/examples_3_3b0cf093ad70dfcbed46.png
+2023-07-31 00:27:35,300 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables\variables_temp\part-00000-of-00001.data-00000-of-00001
+2023-07-31 00:27:35,303 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables\variables_temp\part-00000-of-00001.index
+2023-07-31 00:27:35,303 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables
+2023-07-31 00:27:35,304 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best
+2023-07-31 00:27:35,304 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables\variables_temp
+2023-07-31 00:27:36,311 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:36,311 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\saved_model.pb
+2023-07-31 00:27:36,311 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\keras_metadata.pb
+2023-07-31 00:27:36,311 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables\variables.index
+2023-07-31 00:27:36,313 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_moved():297] file/dir moved: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables\variables_temp\part-00000-of-00001.data-00000-of-00001 -> d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables\variables.data-00000-of-00001
+2023-07-31 00:27:36,313 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best
+2023-07-31 00:27:36,314 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\variables
+2023-07-31 00:27:36,314 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best\assets
+2023-07-31 00:27:36,330 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-31 00:27:36,330 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: log_artifact
+2023-07-31 00:27:37,336 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:38,410 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:27:39,680 INFO    wandb-upload_25:3856 [upload_job.py:push():89] Uploaded file C:\Users\Pc\AppData\Local\wandb\wandb\artifacts\staging\tmph3fvln3b
+2023-07-31 00:27:39,803 INFO    wandb-upload_30:3856 [upload_job.py:push():89] Uploaded file C:\Users\Pc\AppData\Local\wandb\wandb\artifacts\staging\tmp9k0_8q1y
+2023-07-31 00:27:40,630 INFO    wandb-upload_6:3856 [upload_job.py:push():89] Uploaded file C:\Users\Pc\AppData\Local\wandb\wandb\artifacts\staging\tmpo53znrch
+2023-07-31 00:27:48,019 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:27:51,638 INFO    wandb-upload_31:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\v12qun0e-model-best.h5
+2023-07-31 00:27:53,084 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:27:58,139 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:27:59,920 INFO    wandb-upload_18:3856 [upload_job.py:push():89] Uploaded file C:\Users\Pc\AppData\Local\wandb\wandb\artifacts\staging\tmpwcdbrgek
+2023-07-31 00:28:01,285 INFO    SenderThread:3856 [sender.py:send_request_log_artifact():1442] logged artifact model-vibrant-firebrand-8 - {'id': 'QXJ0aWZhY3Q6NTI3NDE3MzY2', 'digest': '421684f5064d5bf7f5f0ef2264e5ca94', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg2Njk2MDMy', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-31 00:28:01,289 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:28:01,294 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:02,760 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:03,023 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:28:03,029 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:28:03,630 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:28:04,787 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:06,349 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:06,823 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:08,843 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:10,867 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:11,378 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:12,883 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:14,913 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:16,468 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:16,933 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:17,890 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:28:18,047 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:28:18,047 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:28:18,955 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:20,978 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:21,488 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:22,997 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:25,017 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:26,514 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:27,037 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:29,060 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:31,085 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:31,599 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:32,899 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:28:33,042 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:28:33,043 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:28:33,101 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:33,632 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:28:35,118 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:36,624 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:37,185 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:39,217 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:41,246 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:41,628 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:43,274 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:45,299 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:46,662 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:47,315 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:47,920 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:28:48,045 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:28:48,046 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:28:49,340 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:51,364 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:51,702 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:53,397 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:55,417 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:56,775 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:28:57,447 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:28:59,484 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:29:01,516 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:29:02,306 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:29:02,933 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:29:03,056 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-31 00:29:03,057 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: stop_status
+2023-07-31 00:29:03,646 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:29:07,690 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:29:09,659 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:29:11,719 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:29:12,707 DEBUG   SenderThread:3856 [sender.py:send():379] send: config
+2023-07-31 00:29:12,708 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:29:13,606 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-31 00:29:13,607 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: log_artifact
+2023-07-31 00:29:13,663 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:29:13,673 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:29:13,681 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:29:13,750 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\table\conf_mat_table_4_f175470980eaa355cd01.table.json
+2023-07-31 00:29:13,752 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\Confusion_Matrix_6_5048193c877af3ce474f.png
+2023-07-31 00:29:13,753 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\roc_5_764a00a49e4f30cfd802.png
+2023-07-31 00:29:13,754 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images
+2023-07-31 00:29:13,754 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\table
+2023-07-31 00:29:14,612 INFO    wandb-upload_24:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\1xh6fnv6-media/table/conf_mat_table_4_f175470980eaa355cd01.table.json
+2023-07-31 00:29:14,619 INFO    wandb-upload_19:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\sf1fsjxz-media/images/Confusion_Matrix_6_5048193c877af3ce474f.png
+2023-07-31 00:29:14,723 INFO    wandb-upload_22:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\f67oc7su-media/images/roc_5_764a00a49e4f30cfd802.png
+2023-07-31 00:29:15,396 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:29:15,397 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:29:15,397 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-31 00:29:15,776 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_e9a4b89911a94961baad.png
+2023-07-31 00:29:15,777 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_2aa590c8122c1bd38532.png
+2023-07-31 00:29:15,781 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_5e769d7409d6d434a121.png
+2023-07-31 00:29:15,781 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_578f22f9149a048e0be1.png
+2023-07-31 00:29:15,783 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_6b13ac51d28e8c164a4e.png
+2023-07-31 00:29:15,784 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_f1d49490762ae874d082.png
+2023-07-31 00:29:15,785 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_315279b9dca651f31f1e.png
+2023-07-31 00:29:15,786 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_1c3378fe97f9cb728466.png
+2023-07-31 00:29:15,791 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_4ed916672f037d7772fe.png
+2023-07-31 00:29:15,794 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_dc425c1555a2815b872c.png
+2023-07-31 00:29:15,794 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_540adcf47d5c1430e129.png
+2023-07-31 00:29:15,796 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_765c9a4c7d595e41f8c4.png
+2023-07-31 00:29:15,796 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_7efcb8c442232740a729.png
+2023-07-31 00:29:15,797 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_a069a350dede564cbee8.png
+2023-07-31 00:29:15,797 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_7739f62f958005ca4039.png
+2023-07-31 00:29:15,798 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_0bc06e92cba08535be0e.png
+2023-07-31 00:29:15,798 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_37e07133023dc76d963c.png
+2023-07-31 00:29:15,803 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_3e395803d0fb671d2589.png
+2023-07-31 00:29:15,806 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_479ec90ec8d57bee37b5.png
+2023-07-31 00:29:15,807 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_b1a7b6e4a5858a658198.png
+2023-07-31 00:29:15,808 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_6eaf70ec955a2278abd9.png
+2023-07-31 00:29:15,810 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_fe371f15d14c5dd000c7.png
+2023-07-31 00:29:15,813 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_437ea837550d47274a0b.png
+2023-07-31 00:29:15,816 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_9134c15d228df73273a9.png
+2023-07-31 00:29:15,819 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_16d2e0c8bca4fc1f7145.png
+2023-07-31 00:29:15,819 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_5cdd24914001f70648ef.png
+2023-07-31 00:29:15,821 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_cd2958bd516e378d80c7.png
+2023-07-31 00:29:15,822 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_df1c8780b12da82240f2.png
+2023-07-31 00:29:15,826 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_0c50b2653b7df93244f6.png
+2023-07-31 00:29:15,828 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_35c371203ba2c6a27cba.png
+2023-07-31 00:29:15,829 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_ee2466a33731b4044295.png
+2023-07-31 00:29:15,831 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_b1a7a24056f416c2ce0f.png
+2023-07-31 00:29:15,831 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images
+2023-07-31 00:29:15,886 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: pause
+2023-07-31 00:29:15,887 INFO    HandlerThread:3856 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-31 00:29:15,887 INFO    HandlerThread:3856 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-31 00:29:15,888 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-31 00:29:15,889 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined disk monitor
+2023-07-31 00:29:15,889 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-31 00:29:15,905 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-31 00:29:16,022 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-31 00:29:16,022 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined memory monitor
+2023-07-31 00:29:16,023 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined network monitor
+2023-07-31 00:29:16,023 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: resume
+2023-07-31 00:29:16,023 INFO    HandlerThread:3856 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-31 00:29:16,023 INFO    HandlerThread:3856 [system_monitor.py:start():181] Starting system monitor
+2023-07-31 00:29:16,027 INFO    SystemMonitor:3856 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-31 00:29:16,041 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started cpu monitoring
+2023-07-31 00:29:16,041 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started disk monitoring
+2023-07-31 00:29:16,043 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started gpu monitoring
+2023-07-31 00:29:16,070 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started memory monitoring
+2023-07-31 00:29:16,091 INFO    SystemMonitor:3856 [interfaces.py:start():190] Started network monitoring
+2023-07-31 00:29:16,106 INFO    wandb-upload_32:3856 [upload_job.py:push():89] Uploaded file C:\Users\Pc\AppData\Local\wandb\wandb\artifacts\staging\tmpt4q71mcb
+2023-07-31 00:29:16,668 INFO    wandb-upload_14:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\v8ctnpze-media/images/examples_7_6b13ac51d28e8c164a4e.png
+2023-07-31 00:29:16,669 INFO    wandb-upload_7:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\1z5s5ghd-media/images/examples_7_1c3378fe97f9cb728466.png
+2023-07-31 00:29:16,671 INFO    wandb-upload_23:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\p9x11752-media/images/examples_7_2aa590c8122c1bd38532.png
+2023-07-31 00:29:16,673 INFO    wandb-upload_34:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ox2lei6h-media/images/examples_7_5e769d7409d6d434a121.png
+2023-07-31 00:29:16,674 INFO    wandb-upload_1:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\gl0ucz87-media/images/examples_7_578f22f9149a048e0be1.png
+2023-07-31 00:29:16,674 INFO    wandb-upload_12:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\as3mx3o2-media/images/examples_7_f1d49490762ae874d082.png
+2023-07-31 00:29:16,675 INFO    wandb-upload_33:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\6rj30djk-media/images/examples_7_e9a4b89911a94961baad.png
+2023-07-31 00:29:16,675 INFO    wandb-upload_9:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\lat1ut04-media/images/examples_7_315279b9dca651f31f1e.png
+2023-07-31 00:29:16,695 INFO    wandb-upload_15:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\iuxiyq79-media/images/examples_7_4ed916672f037d7772fe.png
+2023-07-31 00:29:16,724 INFO    wandb-upload_27:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\hi4mnu9k-media/images/examples_7_dc425c1555a2815b872c.png
+2023-07-31 00:29:16,974 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-31 00:29:17,425 INFO    wandb-upload_25:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\gmi3bl54-media/images/examples_7_765c9a4c7d595e41f8c4.png
+2023-07-31 00:29:17,529 INFO    wandb-upload_19:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ptjayxss-media/images/examples_7_37e07133023dc76d963c.png
+2023-07-31 00:29:17,590 INFO    wandb-upload_4:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\mdyejegi-media/images/examples_7_540adcf47d5c1430e129.png
+2023-07-31 00:29:17,591 INFO    wandb-upload_16:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\z17ibaag-media/images/examples_7_7739f62f958005ca4039.png
+2023-07-31 00:29:17,592 INFO    wandb-upload_6:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\42pxvqhy-media/images/examples_7_7efcb8c442232740a729.png
+2023-07-31 00:29:17,592 INFO    wandb-upload_18:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\i2lxth70-media/images/examples_7_a069a350dede564cbee8.png
+2023-07-31 00:29:17,659 INFO    wandb-upload_29:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\hshcilbo-media/images/examples_7_0bc06e92cba08535be0e.png
+2023-07-31 00:29:18,745 INFO    SenderThread:3856 [sender.py:send_request_log_artifact():1442] logged artifact run-nlvan2oo-conf_mat_table - {'id': 'QXJ0aWZhY3Q6NTI3NDE4MDU1', 'digest': 'e6a0da1bf038439aabe448c9a2042415', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg2Njk2MDE3', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTI3NDE3Mjk3', 'versionIndex': 0}}, 'version': 'latest'}
+2023-07-31 00:29:18,764 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,782 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\table\conf_mat_table_4_f175470980eaa355cd01.table.json with policy now
+2023-07-31 00:29:18,810 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:29:18,821 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:29:18,823 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:29:18,825 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:29:18,827 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,827 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\roc_5_764a00a49e4f30cfd802.png with policy now
+2023-07-31 00:29:18,829 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:29:18,830 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:29:18,832 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:29:18,834 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,834 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\Confusion_Matrix_6_5048193c877af3ce474f.png with policy now
+2023-07-31 00:29:18,841 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:29:18,841 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:29:18,843 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:29:18,844 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,845 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_b1a7b6e4a5858a658198.png with policy now
+2023-07-31 00:29:18,846 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,846 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_cd2958bd516e378d80c7.png with policy now
+2023-07-31 00:29:18,854 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,855 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_2aa590c8122c1bd38532.png with policy now
+2023-07-31 00:29:18,857 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,858 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_df1c8780b12da82240f2.png with policy now
+2023-07-31 00:29:18,860 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,860 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_16d2e0c8bca4fc1f7145.png with policy now
+2023-07-31 00:29:18,861 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,862 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_35c371203ba2c6a27cba.png with policy now
+2023-07-31 00:29:18,868 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,870 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_6b13ac51d28e8c164a4e.png with policy now
+2023-07-31 00:29:18,873 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-summary.json
+2023-07-31 00:29:18,874 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,874 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_ee2466a33731b4044295.png with policy now
+2023-07-31 00:29:18,875 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,875 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_6eaf70ec955a2278abd9.png with policy now
+2023-07-31 00:29:18,876 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,876 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_437ea837550d47274a0b.png with policy now
+2023-07-31 00:29:18,877 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,877 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_dc425c1555a2815b872c.png with policy now
+2023-07-31 00:29:18,879 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,879 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_fe371f15d14c5dd000c7.png with policy now
+2023-07-31 00:29:18,882 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,882 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_0bc06e92cba08535be0e.png with policy now
+2023-07-31 00:29:18,895 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,895 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_a069a350dede564cbee8.png with policy now
+2023-07-31 00:29:18,906 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,907 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_1c3378fe97f9cb728466.png with policy now
+2023-07-31 00:29:18,918 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,918 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_479ec90ec8d57bee37b5.png with policy now
+2023-07-31 00:29:18,924 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,924 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_f1d49490762ae874d082.png with policy now
+2023-07-31 00:29:18,925 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,930 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_5e769d7409d6d434a121.png with policy now
+2023-07-31 00:29:18,931 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,931 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_e9a4b89911a94961baad.png with policy now
+2023-07-31 00:29:18,932 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,932 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_b1a7a24056f416c2ce0f.png with policy now
+2023-07-31 00:29:18,932 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,932 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_37e07133023dc76d963c.png with policy now
+2023-07-31 00:29:18,933 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,933 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_4ed916672f037d7772fe.png with policy now
+2023-07-31 00:29:18,939 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,940 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_765c9a4c7d595e41f8c4.png with policy now
+2023-07-31 00:29:18,942 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,943 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_7efcb8c442232740a729.png with policy now
+2023-07-31 00:29:18,946 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,951 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_5cdd24914001f70648ef.png with policy now
+2023-07-31 00:29:18,952 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,952 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_540adcf47d5c1430e129.png with policy now
+2023-07-31 00:29:18,953 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,953 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_9134c15d228df73273a9.png with policy now
+2023-07-31 00:29:18,959 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,960 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_3e395803d0fb671d2589.png with policy now
+2023-07-31 00:29:18,960 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,961 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_7739f62f958005ca4039.png with policy now
+2023-07-31 00:29:18,961 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,962 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_578f22f9149a048e0be1.png with policy now
+2023-07-31 00:29:18,963 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,964 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_0c50b2653b7df93244f6.png with policy now
+2023-07-31 00:29:18,965 DEBUG   SenderThread:3856 [sender.py:send():379] send: files
+2023-07-31 00:29:18,966 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file media\images\examples_7_315279b9dca651f31f1e.png with policy now
+2023-07-31 00:29:18,967 DEBUG   SenderThread:3856 [sender.py:send():379] send: history
+2023-07-31 00:29:18,969 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: summary_record
+2023-07-31 00:29:18,971 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:29:18,973 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:29:18,974 DEBUG   SenderThread:3856 [sender.py:send():379] send: telemetry
+2023-07-31 00:29:18,975 DEBUG   SenderThread:3856 [sender.py:send():379] send: exit
+2023-07-31 00:29:18,977 INFO    SenderThread:3856 [sender.py:send_exit():584] handling exit code: 0
+2023-07-31 00:29:18,977 INFO    SenderThread:3856 [sender.py:send_exit():586] handling runtime: 232
+2023-07-31 00:29:18,980 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:29:18,981 INFO    SenderThread:3856 [sender.py:send_exit():592] send defer
+2023-07-31 00:29:18,984 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: poll_exit
+2023-07-31 00:29:18,985 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:18,985 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-31 00:29:18,985 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:18,986 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-07-31 00:29:18,986 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 1
+2023-07-31 00:29:18,987 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:18,987 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-31 00:29:18,987 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:18,987 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-07-31 00:29:18,987 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 2
+2023-07-31 00:29:18,987 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:18,987 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-31 00:29:18,987 INFO    HandlerThread:3856 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-31 00:29:18,988 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-31 00:29:18,988 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-31 00:29:19,002 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-31 00:29:19,002 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined disk monitor
+2023-07-31 00:29:19,003 DEBUG   SystemMonitor:3856 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-31 00:29:19,143 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-31 00:29:19,144 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined memory monitor
+2023-07-31 00:29:19,146 INFO    HandlerThread:3856 [interfaces.py:finish():202] Joined network monitor
+2023-07-31 00:29:19,173 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:19,173 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-07-31 00:29:19,178 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 3
+2023-07-31 00:29:19,180 DEBUG   SenderThread:3856 [sender.py:send():379] send: stats
+2023-07-31 00:29:19,186 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:19,189 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-31 00:29:19,212 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:19,212 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-07-31 00:29:19,212 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 4
+2023-07-31 00:29:19,221 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:19,222 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-31 00:29:19,244 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:19,245 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-07-31 00:29:19,245 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 5
+2023-07-31 00:29:19,291 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:19,292 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-31 00:29:19,316 DEBUG   SenderThread:3856 [sender.py:send():379] send: summary
+2023-07-31 00:29:19,322 INFO    SenderThread:3856 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-31 00:29:19,324 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:19,325 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-07-31 00:29:19,325 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 6
+2023-07-31 00:29:19,326 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:19,327 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-31 00:29:19,330 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:19,332 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-07-31 00:29:19,340 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: status_report
+2023-07-31 00:29:19,542 INFO    wandb-upload_5:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\4kfml6vy-media/images/examples_7_3e395803d0fb671d2589.png
+2023-07-31 00:29:19,663 INFO    wandb-upload_13:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\bkyh1fca-media/images/examples_7_fe371f15d14c5dd000c7.png
+2023-07-31 00:29:19,670 INFO    wandb-upload_3:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\7r9y89f9-media/images/examples_7_16d2e0c8bca4fc1f7145.png
+2023-07-31 00:29:19,773 INFO    wandb-upload_2:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ek2muyuw-media/images/examples_7_df1c8780b12da82240f2.png
+2023-07-31 00:29:19,856 INFO    wandb-upload_10:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\1i8rddex-media/images/examples_7_437ea837550d47274a0b.png
+2023-07-31 00:29:19,900 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-summary.json
+2023-07-31 00:29:19,902 INFO    wandb-upload_21:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\0ci4287p-media/images/examples_7_6eaf70ec955a2278abd9.png
+2023-07-31 00:29:19,904 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:29:19,904 INFO    wandb-upload_11:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\yclb5mu9-media/images/examples_7_479ec90ec8d57bee37b5.png
+2023-07-31 00:29:19,911 INFO    wandb-upload_30:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\5shfrgi4-media/images/examples_7_0c50b2653b7df93244f6.png
+2023-07-31 00:29:19,911 INFO    wandb-upload_17:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\7satkja1-media/images/examples_7_9134c15d228df73273a9.png
+2023-07-31 00:29:19,912 INFO    wandb-upload_26:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\n028g17u-media/images/examples_7_b1a7b6e4a5858a658198.png
+2023-07-31 00:29:20,114 INFO    wandb-upload_6:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\0gem9cia-media/images/examples_7_f1d49490762ae874d082.png
+2023-07-31 00:29:20,384 INFO    wandb-upload_29:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\yiwlrz6p-media/images/examples_7_e9a4b89911a94961baad.png
+2023-07-31 00:29:20,509 INFO    wandb-upload_4:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\psvgs2k6-media/images/examples_7_a069a350dede564cbee8.png
+2023-07-31 00:29:20,580 INFO    wandb-upload_15:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\o4kh8w5t-media/images/examples_7_dc425c1555a2815b872c.png
+2023-07-31 00:29:20,937 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 7
+2023-07-31 00:29:20,939 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:20,939 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-31 00:29:20,940 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:20,940 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-07-31 00:29:20,954 INFO    wandb-upload_8:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\s0sjffd2-media/images/examples_7_5cdd24914001f70648ef.png
+2023-07-31 00:29:20,973 INFO    wandb-upload_7:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\gftzx9pe-media/images/examples_7_765c9a4c7d595e41f8c4.png
+2023-07-31 00:29:21,046 INFO    wandb-upload_31:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\v0xbqf2x-media/images/examples_7_35c371203ba2c6a27cba.png
+2023-07-31 00:29:21,048 INFO    wandb-upload_10:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\b8yy3dg5-media/images/examples_7_fe371f15d14c5dd000c7.png
+2023-07-31 00:29:21,048 INFO    wandb-upload_3:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\i8zighve-media/images/examples_7_6eaf70ec955a2278abd9.png
+2023-07-31 00:29:21,071 INFO    wandb-upload_28:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\2i2f8idy-media/images/examples_7_ee2466a33731b4044295.png
+2023-07-31 00:29:21,071 INFO    wandb-upload_1:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\n0rjzk6j-media/images/examples_7_2aa590c8122c1bd38532.png
+2023-07-31 00:29:21,072 INFO    wandb-upload_22:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\3594ptci-media/table/conf_mat_table_4_f175470980eaa355cd01.table.json
+2023-07-31 00:29:21,131 INFO    wandb-upload_23:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\4t69atu9-media/images/Confusion_Matrix_6_5048193c877af3ce474f.png
+2023-07-31 00:29:21,131 INFO    wandb-upload_5:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\rrmdanlg-media/images/examples_7_16d2e0c8bca4fc1f7145.png
+2023-07-31 00:29:21,426 INFO    wandb-upload_0:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\mzlpbj04-media/images/examples_7_b1a7a24056f416c2ce0f.png
+2023-07-31 00:29:21,475 INFO    wandb-upload_16:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\4ir4qfl5-media/images/examples_7_1c3378fe97f9cb728466.png
+2023-07-31 00:29:21,499 INFO    wandb-upload_18:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\s4qgszju-media/images/examples_7_5e769d7409d6d434a121.png
+2023-07-31 00:29:21,499 INFO    wandb-upload_32:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\pmsfqlnk-media/images/examples_7_4ed916672f037d7772fe.png
+2023-07-31 00:29:21,499 INFO    wandb-upload_24:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\1aua8f2h-media/images/examples_7_37e07133023dc76d963c.png
+2023-07-31 00:29:21,548 INFO    wandb-upload_25:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\iu612iv5-media/images/examples_7_0bc06e92cba08535be0e.png
+2023-07-31 00:29:21,647 INFO    wandb-upload_14:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\jtnstxo6-media/images/roc_5_764a00a49e4f30cfd802.png
+2023-07-31 00:29:21,706 INFO    wandb-upload_12:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\29t4qjsd-media/images/examples_7_7efcb8c442232740a729.png
+2023-07-31 00:29:21,722 INFO    wandb-upload_27:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\0lhjlts1-media/images/examples_7_540adcf47d5c1430e129.png
+2023-07-31 00:29:21,741 INFO    wandb-upload_21:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ny9o15n4-media/images/examples_7_479ec90ec8d57bee37b5.png
+2023-07-31 00:29:21,773 INFO    wandb-upload_9:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\yagl4mlz-media/images/examples_7_315279b9dca651f31f1e.png
+2023-07-31 00:29:21,781 INFO    wandb-upload_11:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\avou99eq-media/images/examples_7_0c50b2653b7df93244f6.png
+2023-07-31 00:29:21,859 INFO    wandb-upload_19:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\hcxfu9r7-media/images/examples_7_578f22f9149a048e0be1.png
+2023-07-31 00:29:21,872 INFO    wandb-upload_29:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\mhroipss-media/images/examples_7_b1a7b6e4a5858a658198.png
+2023-07-31 00:29:21,916 INFO    wandb-upload_34:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\146n3v2x-media/images/examples_7_7739f62f958005ca4039.png
+2023-07-31 00:29:21,916 INFO    wandb-upload_22:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\s2ur4lar-media/images/examples_7_ee2466a33731b4044295.png
+2023-07-31 00:29:21,918 INFO    Thread-30 :3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\config.yaml
+2023-07-31 00:29:21,938 INFO    wandb-upload_15:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\1sv6vjlu-media/images/examples_7_35c371203ba2c6a27cba.png
+2023-07-31 00:29:21,996 INFO    wandb-upload_6:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\0jse2bbz-media/images/examples_7_5cdd24914001f70648ef.png
+2023-07-31 00:29:22,014 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-31 00:29:22,071 INFO    wandb-upload_33:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\5b2oz6p9-media/images/examples_7_6b13ac51d28e8c164a4e.png
+2023-07-31 00:29:22,105 INFO    wandb-upload_13:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\ko8s7f7s-media/images/examples_7_437ea837550d47274a0b.png
+2023-07-31 00:29:22,158 INFO    wandb-upload_20:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\2i3e2dkc-media/images/examples_7_cd2958bd516e378d80c7.png
+2023-07-31 00:29:22,206 INFO    wandb-upload_2:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\tyol4fot-media/images/examples_7_9134c15d228df73273a9.png
+2023-07-31 00:29:22,237 INFO    wandb-upload_26:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\mqr35zoh-media/images/examples_7_3e395803d0fb671d2589.png
+2023-07-31 00:29:22,305 INFO    wandb-upload_4:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\z1rnz445-media/images/examples_7_b1a7a24056f416c2ce0f.png
+2023-07-31 00:29:22,583 INFO    wandb-upload_30:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\lxen21bt-media/images/examples_7_df1c8780b12da82240f2.png
+2023-07-31 00:29:22,762 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 8
+2023-07-31 00:29:22,762 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:22,763 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-31 00:29:22,765 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:22,765 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-07-31 00:29:22,765 INFO    SenderThread:3856 [job_builder.py:build():280] Attempting to build job artifact
+2023-07-31 00:29:22,768 INFO    SenderThread:3856 [job_builder.py:build():296] run is notebook based run
+2023-07-31 00:29:22,771 INFO    SenderThread:3856 [job_builder.py:_get_source_type():400] no source found
+2023-07-31 00:29:22,771 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 9
+2023-07-31 00:29:22,772 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:22,772 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-31 00:29:22,774 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:22,775 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-07-31 00:29:22,775 INFO    SenderThread:3856 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-31 00:29:22,949 INFO    SenderThread:3856 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:29:22,950 INFO    SenderThread:3856 [dir_watcher.py:finish():389] scan: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files
+2023-07-31 00:29:22,950 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\conda-environment.yaml conda-environment.yaml
+2023-07-31 00:29:22,951 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\config.yaml config.yaml
+2023-07-31 00:29:22,951 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\model-best.h5 model-best.h5
+2023-07-31 00:29:22,956 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log output.log
+2023-07-31 00:29:22,961 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\requirements.txt requirements.txt
+2023-07-31 00:29:22,965 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-metadata.json wandb-metadata.json
+2023-07-31 00:29:22,965 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-summary.json wandb-summary.json
+2023-07-31 00:29:22,973 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\graph\graph_summary_9a70f89f06014afd142d.graph.json media/graph/graph_summary_9a70f89f06014afd142d.graph.json
+2023-07-31 00:29:22,975 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\Confusion_Matrix_2_bcb6ee7f044f4591e446.png media/images/Confusion_Matrix_2_bcb6ee7f044f4591e446.png
+2023-07-31 00:29:22,975 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\Confusion_Matrix_6_5048193c877af3ce474f.png media/images/Confusion_Matrix_6_5048193c877af3ce474f.png
+2023-07-31 00:29:22,975 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_1771067eae380a4995a1.png media/images/examples_3_1771067eae380a4995a1.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_186b1a441687733334fb.png media/images/examples_3_186b1a441687733334fb.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_1a5cafcef75602ef5712.png media/images/examples_3_1a5cafcef75602ef5712.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_1e8b0626b8016fbd5fca.png media/images/examples_3_1e8b0626b8016fbd5fca.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_2efb675254d2633de04e.png media/images/examples_3_2efb675254d2633de04e.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_3b0cf093ad70dfcbed46.png media/images/examples_3_3b0cf093ad70dfcbed46.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_4ab81b4d721b76370d7e.png media/images/examples_3_4ab81b4d721b76370d7e.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_502fbbecb4ad1b094572.png media/images/examples_3_502fbbecb4ad1b094572.png
+2023-07-31 00:29:22,976 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_50806ebefb52246de6c0.png media/images/examples_3_50806ebefb52246de6c0.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_53ff22097990a99b8b62.png media/images/examples_3_53ff22097990a99b8b62.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_5f5b6e5a3ab246fa0ce6.png media/images/examples_3_5f5b6e5a3ab246fa0ce6.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_61fc1d1cfb236ab4fed4.png media/images/examples_3_61fc1d1cfb236ab4fed4.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_676bbceb496e2aafda50.png media/images/examples_3_676bbceb496e2aafda50.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_7a8df33ffb200679eb14.png media/images/examples_3_7a8df33ffb200679eb14.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_7bf28d9f9275d4d94dca.png media/images/examples_3_7bf28d9f9275d4d94dca.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_86daf719a2c974ad1752.png media/images/examples_3_86daf719a2c974ad1752.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_8e00e33a3d02214f7317.png media/images/examples_3_8e00e33a3d02214f7317.png
+2023-07-31 00:29:22,977 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_92769c723967b9b1d349.png media/images/examples_3_92769c723967b9b1d349.png
+2023-07-31 00:29:22,978 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_a113b40d19ea64594b9c.png media/images/examples_3_a113b40d19ea64594b9c.png
+2023-07-31 00:29:22,978 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_a7319bfcfa0d84bf401f.png media/images/examples_3_a7319bfcfa0d84bf401f.png
+2023-07-31 00:29:22,978 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_a85c97c633a617154f6d.png media/images/examples_3_a85c97c633a617154f6d.png
+2023-07-31 00:29:22,978 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_ae27be5d53cfac5dd398.png media/images/examples_3_ae27be5d53cfac5dd398.png
+2023-07-31 00:29:22,978 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_bc188866808e0ea9890a.png media/images/examples_3_bc188866808e0ea9890a.png
+2023-07-31 00:29:22,978 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_c2a49e5a50344587d2fa.png media/images/examples_3_c2a49e5a50344587d2fa.png
+2023-07-31 00:29:22,978 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_c3f714df7d2f169c7402.png media/images/examples_3_c3f714df7d2f169c7402.png
+2023-07-31 00:29:22,979 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_d2ba4a149bc7b7cef10f.png media/images/examples_3_d2ba4a149bc7b7cef10f.png
+2023-07-31 00:29:22,979 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_da7a132af0898406f2c1.png media/images/examples_3_da7a132af0898406f2c1.png
+2023-07-31 00:29:22,979 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_e8ef47f43fb17f96b86e.png media/images/examples_3_e8ef47f43fb17f96b86e.png
+2023-07-31 00:29:22,979 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_ec8dbf178f5f46a02d71.png media/images/examples_3_ec8dbf178f5f46a02d71.png
+2023-07-31 00:29:22,979 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_f0d685fb01de917e1a7a.png media/images/examples_3_f0d685fb01de917e1a7a.png
+2023-07-31 00:29:22,979 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_f574d143b58cabf49311.png media/images/examples_3_f574d143b58cabf49311.png
+2023-07-31 00:29:22,979 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_3_f95eb5d34e2b1a44bcc7.png media/images/examples_3_f95eb5d34e2b1a44bcc7.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_0bc06e92cba08535be0e.png media/images/examples_7_0bc06e92cba08535be0e.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_0c50b2653b7df93244f6.png media/images/examples_7_0c50b2653b7df93244f6.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_16d2e0c8bca4fc1f7145.png media/images/examples_7_16d2e0c8bca4fc1f7145.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_1c3378fe97f9cb728466.png media/images/examples_7_1c3378fe97f9cb728466.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_2aa590c8122c1bd38532.png media/images/examples_7_2aa590c8122c1bd38532.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_315279b9dca651f31f1e.png media/images/examples_7_315279b9dca651f31f1e.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_35c371203ba2c6a27cba.png media/images/examples_7_35c371203ba2c6a27cba.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_37e07133023dc76d963c.png media/images/examples_7_37e07133023dc76d963c.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_3e395803d0fb671d2589.png media/images/examples_7_3e395803d0fb671d2589.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_437ea837550d47274a0b.png media/images/examples_7_437ea837550d47274a0b.png
+2023-07-31 00:29:22,980 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_479ec90ec8d57bee37b5.png media/images/examples_7_479ec90ec8d57bee37b5.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_4ed916672f037d7772fe.png media/images/examples_7_4ed916672f037d7772fe.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_540adcf47d5c1430e129.png media/images/examples_7_540adcf47d5c1430e129.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_578f22f9149a048e0be1.png media/images/examples_7_578f22f9149a048e0be1.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_5cdd24914001f70648ef.png media/images/examples_7_5cdd24914001f70648ef.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_5e769d7409d6d434a121.png media/images/examples_7_5e769d7409d6d434a121.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_6b13ac51d28e8c164a4e.png media/images/examples_7_6b13ac51d28e8c164a4e.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_6eaf70ec955a2278abd9.png media/images/examples_7_6eaf70ec955a2278abd9.png
+2023-07-31 00:29:22,982 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_765c9a4c7d595e41f8c4.png media/images/examples_7_765c9a4c7d595e41f8c4.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_7739f62f958005ca4039.png media/images/examples_7_7739f62f958005ca4039.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_7efcb8c442232740a729.png media/images/examples_7_7efcb8c442232740a729.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_9134c15d228df73273a9.png media/images/examples_7_9134c15d228df73273a9.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_a069a350dede564cbee8.png media/images/examples_7_a069a350dede564cbee8.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_b1a7a24056f416c2ce0f.png media/images/examples_7_b1a7a24056f416c2ce0f.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_b1a7b6e4a5858a658198.png media/images/examples_7_b1a7b6e4a5858a658198.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_cd2958bd516e378d80c7.png media/images/examples_7_cd2958bd516e378d80c7.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_dc425c1555a2815b872c.png media/images/examples_7_dc425c1555a2815b872c.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_df1c8780b12da82240f2.png media/images/examples_7_df1c8780b12da82240f2.png
+2023-07-31 00:29:22,983 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_e9a4b89911a94961baad.png media/images/examples_7_e9a4b89911a94961baad.png
+2023-07-31 00:29:22,984 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_ee2466a33731b4044295.png media/images/examples_7_ee2466a33731b4044295.png
+2023-07-31 00:29:22,984 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_f1d49490762ae874d082.png media/images/examples_7_f1d49490762ae874d082.png
+2023-07-31 00:29:22,984 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\examples_7_fe371f15d14c5dd000c7.png media/images/examples_7_fe371f15d14c5dd000c7.png
+2023-07-31 00:29:22,984 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\roc_1_d3ef22770f3bfb63fc66.png media/images/roc_1_d3ef22770f3bfb63fc66.png
+2023-07-31 00:29:22,985 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\images\roc_5_764a00a49e4f30cfd802.png media/images/roc_5_764a00a49e4f30cfd802.png
+2023-07-31 00:29:22,985 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\table\conf_mat_table_0_d07b2477e434ccd1a49a.table.json media/table/conf_mat_table_0_d07b2477e434ccd1a49a.table.json
+2023-07-31 00:29:22,985 INFO    SenderThread:3856 [dir_watcher.py:finish():403] scan save: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\media\table\conf_mat_table_4_f175470980eaa355cd01.table.json media/table/conf_mat_table_4_f175470980eaa355cd01.table.json
+2023-07-31 00:29:22,985 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 10
+2023-07-31 00:29:22,985 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:22,985 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-31 00:29:22,986 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:22,986 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-07-31 00:29:22,986 INFO    SenderThread:3856 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-31 00:29:23,105 INFO    wandb-upload_10:3856 [upload_job.py:push():131] Uploaded file C:\Users\Pc\AppData\Local\Temp\tmp3av657_2wandb\x1pe3obw-media/images/examples_7_cd2958bd516e378d80c7.png
+2023-07-31 00:29:23,705 INFO    wandb-upload_16:3856 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\wandb-summary.json
+2023-07-31 00:29:23,738 INFO    wandb-upload_1:3856 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\config.yaml
+2023-07-31 00:29:23,739 INFO    wandb-upload_17:3856 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\conda-environment.yaml
+2023-07-31 00:29:23,747 INFO    wandb-upload_7:3856 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\output.log
+2023-07-31 00:29:23,755 INFO    wandb-upload_23:3856 [upload_job.py:push():131] Uploaded file d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\files\requirements.txt
+2023-07-31 00:29:23,959 INFO    Thread-29 :3856 [sender.py:transition_state():612] send defer: 11
+2023-07-31 00:29:23,960 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:23,960 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-31 00:29:23,961 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:23,962 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-07-31 00:29:23,962 INFO    SenderThread:3856 [file_pusher.py:join():164] waiting for file pusher
+2023-07-31 00:29:23,963 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 12
+2023-07-31 00:29:23,964 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:23,964 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-31 00:29:23,966 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:23,967 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-07-31 00:29:25,055 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 13
+2023-07-31 00:29:25,055 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:25,055 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-31 00:29:25,056 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:25,056 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-07-31 00:29:25,056 INFO    SenderThread:3856 [sender.py:transition_state():612] send defer: 14
+2023-07-31 00:29:25,058 DEBUG   SenderThread:3856 [sender.py:send():379] send: final
+2023-07-31 00:29:25,058 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: defer
+2023-07-31 00:29:25,058 DEBUG   SenderThread:3856 [sender.py:send():379] send: footer
+2023-07-31 00:29:25,058 INFO    HandlerThread:3856 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-31 00:29:25,059 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: defer
+2023-07-31 00:29:25,059 INFO    SenderThread:3856 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-07-31 00:29:25,061 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-31 00:29:25,061 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: server_info
+2023-07-31 00:29:25,063 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-31 00:29:25,063 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-31 00:29:25,063 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: poll_exit
+2023-07-31 00:29:25,065 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: job_info
+2023-07-31 00:29:25,065 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: server_info
+2023-07-31 00:29:25,337 DEBUG   SenderThread:3856 [sender.py:send_request():406] send_request: job_info
+2023-07-31 00:29:25,342 DEBUG   HandlerThread:3856 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-31 00:29:25,342 INFO    HandlerThread:3856 [handler.py:finish():857] shutting down handler
+2023-07-31 00:29:26,076 INFO    WriterThread:3856 [datastore.py:close():294] close: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230731_002521-nlvan2oo\run-nlvan2oo.wandb
+2023-07-31 00:29:26,339 INFO    SenderThread:3856 [sender.py:finish():1552] shutting down sender
+2023-07-31 00:29:26,339 INFO    SenderThread:3856 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-31 00:29:26,339 INFO    SenderThread:3856 [file_pusher.py:join():164] waiting for file pusher

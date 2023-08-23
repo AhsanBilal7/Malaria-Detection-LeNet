@@ -1,0 +1,143 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 126, 126, 6)       168
+ batch_normalization (BatchN  (None, 126, 126, 6)      24
+ ormalization)
+ max_pooling2d (MaxPooling2D  (None, 63, 63, 6)        0
+ )
+ dropout (Dropout)           (None, 63, 63, 6)         0
+ conv2d_1 (Conv2D)           (None, 61, 61, 16)        880
+ batch_normalization_1 (Batc  (None, 61, 61, 16)       64
+ hNormalization)
+ max_pooling2d_1 (MaxPooling  (None, 30, 30, 16)       0
+ 2D)
+ flatten (Flatten)           (None, 14400)             0
+ dense (Dense)               (None, 16)                230416
+ batch_normalization_2 (Batc  (None, 16)               64
+ hNormalization)
+ dropout_1 (Dropout)         (None, 16)                0
+ dense_1 (Dense)             (None, 64)                1088
+ batch_normalization_3 (Batc  (None, 64)               256
+ hNormalization)
+ dense_2 (Dense)             (None, 1)                 65
+=================================================================
+Total params: 233,025
+Trainable params: 232,821
+Non-trainable params: 204
+_________________________________________________________________
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+688/689 [============================>.] - ETA: 0s - loss: 0.5276 - accuracy: 0.8243
+
+688/689 [============================>.] - ETA: 0s - loss: 0.5276 - accuracy: 0.8243INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_155920-29s3026m\files\model-best\assets
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_155920-29s3026m\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_155920-29s3026m\files\model-best)... Done. 0.0s
+689/689 [==============================] - 1191s 2s/step - loss: 0.5272 - accuracy: 0.8245 - val_loss: 0.3381 - val_accuracy: 0.9401
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.3431 - accuracy: 0.9321
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_155920-29s3026m\files\model-best\assets
+
+689/689 [==============================] - ETA: 0s - loss: 0.3431 - accuracy: 0.9321INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_155920-29s3026m\files\model-best\assets
+689/689 [==============================] - 78s 109ms/step - loss: 0.3431 - accuracy: 0.9321 - val_loss: 0.3319 - val_accuracy: 0.9441
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - ETA: 0s - loss: 0.3337 - accuracy: 0.9340
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_155920-29s3026m\files\model-best\assets
+
+689/689 [==============================] - ETA: 0s - loss: 0.3337 - accuracy: 0.9340INFO:tensorflow:Assets written to: d:\Tensorflow Basics\Car Price Prediction\wandb\run-20230801_155920-29s3026m\files\model-best\assets
+689/689 [==============================] - 65s 93ms/step - loss: 0.3337 - accuracy: 0.9340 - val_loss: 0.3164 - val_accuracy: 0.9368
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 60s 86ms/step - loss: 0.3152 - accuracy: 0.9390 - val_loss: 0.3372 - val_accuracy: 0.9260
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+689/689 [==============================] - 55s 79ms/step - loss: 0.2960 - accuracy: 0.9399 - val_loss: 0.3234 - val_accuracy: 0.9358
